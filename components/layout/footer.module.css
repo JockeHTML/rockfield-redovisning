@@ -46,3 +46,24 @@
   margin-right: 10px;
   font-size: 1.6rem;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .links,
+  .contact {
+    margin: 0;
+    padding: 0 1rem;
+  }
+  .title {
+    margin: 0;
+    padding: 2rem 0 0 1rem;
+  }
+  .social {
+    margin: 0;
+    padding: 0 0 2rem 1rem;
+  }
+}

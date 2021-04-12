@@ -1,4 +1,4 @@
-.forWho {
+.aboutUs {
   height: auto;
   background-color: var(--bg);
   padding: var(--padding4) 0 var(--padding8) 0;
@@ -13,4 +13,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .aboutUs {
+    padding: var(--padding2) 0 var(--padding4) 0;
+  }
+  .title {
+    padding-bottom: var(--padding2);
+  }
 }

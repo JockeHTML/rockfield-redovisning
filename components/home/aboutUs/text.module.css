@@ -16,3 +16,15 @@
   display: flex;
   flex-direction: row;
 }
+
+@media (max-width: 768px) {
+  .text {
+    padding: 0 1rem;
+  }
+  .text h2 {
+    margin-top: var(--padding2);
+  }
+  .buttons {
+    justify-content: center;
+  }
+}

@@ -5,7 +5,7 @@ import Text from "./Text";
 
 const AboutUs = () => {
   return (
-    <div className={classes.forWho}>
+    <div className={classes.aboutUs}>
       <div className={classes.content}>
         <Text />
         <Image />

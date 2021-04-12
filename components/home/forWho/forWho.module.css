@@ -18,3 +18,16 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    width: 100%;
+  }
+  .forWho {
+    padding: var(--padding4) 0 var(--padding2) 0;
+  }
+  .title {
+    padding-bottom: var(--padding2);
+  }
+}

@@ -18,3 +18,17 @@
   color: var(--white);
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .slider p {
+    width: 90%;
+  }
+  .slider h2 {
+    padding-top: var(--padding2);
+    width: 80%;
+  }
+  .slider {
+    height: auto;
+    padding-bottom: var(--padding2);
+  }
+}

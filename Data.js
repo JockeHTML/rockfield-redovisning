@@ -33,28 +33,28 @@ export const productsData = [
     title: "Revision",
     icon: "ChatIcon",
     text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime provident quo asperiores doloribus accusamus? Sapiente praesentium totam animi deleniti itaque..",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor distinctio perspiciatis ipsam eos obcaecati.",
   },
   {
     link: "/affarsradgivning",
     title: "Affärsrådgivning",
     icon: "ClipboardListIcon",
     text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime provident quo asperiores doloribus accusamus? Sapiente praesentium totam animi deleniti itaque..",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor distinctio perspiciatis ipsam eos obcaecati.",
   },
   {
     link: "/redovisning",
     title: "Redovisning",
     icon: "ChartBarIcon",
     text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime provident quo asperiores doloribus accusamus? Sapiente praesentium totam animi deleniti itaque..",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor distinctio perspiciatis ipsam eos obcaecati.",
   },
   {
     link: "/skatteradgivning",
     title: "Skatterådgivning",
     icon: "BookOpenIcon",
     text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime provident quo asperiores doloribus accusamus? Sapiente praesentium totam animi deleniti itaque..",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor distinctio perspiciatis ipsam eos obcaecati.",
   },
 ];
 
