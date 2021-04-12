@@ -6,6 +6,13 @@
   height: 100vh;
 }
 
+.content {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: var(--padding8);
+}
+
 .text {
   width: 30%;
   display: flex;

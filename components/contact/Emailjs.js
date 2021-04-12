@@ -20,20 +20,20 @@ function Emailjs() {
         <h3>Kontaka oss via formuläret</h3>
       </div>
       <form className={classes.form}>
-        <input type="hidden" name="contact_number" />
-        <label>
+        <input id="contact_number" type="hidden" name="contact_number" />
+        <label for="contact_number">
           <p>Namn</p>
         </label>
-        <input type="text" name="user_name" />
-        <label>
+        <input id="user_name" type="text" name="user_name" />
+        <label for="user_name">
           <p>E-post</p>
         </label>
-        <input type="text" name="user_phone" />
-        <label>
+        <input id="user_phone" type="text" name="user_phone" />
+        <label for="user_phone">
           <p>Telefon</p>
         </label>
-        <input type="email" name="user_email" />
-        <label>
+        <input id="user_email" type="email" name="user_email" />
+        <label for="user_email">
           <p>Meddelande</p>
         </label>
         <textarea name="message" />

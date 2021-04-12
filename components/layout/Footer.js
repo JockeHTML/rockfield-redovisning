@@ -7,18 +7,11 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className={classes.footer}>
-      <div className={classes.links}>
-        <h3>Länkar</h3>
-
+      <div className={classes.title}>
+        <h3>Rockfield Redovisning</h3>
         <ul>
-          {navigationData.map((data, index) => {
-            const { title, link, id } = data;
-            return (
-              <li key={index}>
-                <Link href={link}>{title}</Link>
-              </li>
-            );
-          })}
+          {" "}
+          <p>Din klippa inom redovisningstjänster</p>
         </ul>
       </div>
       <div className={classes.contact}>
@@ -34,6 +27,19 @@ const Footer = () => {
           })}
         </ul>
       </div>
+      <div className={classes.links}>
+        <h3>Länkar</h3>
+        <ul>
+          {navigationData.map((data, index) => {
+            const { title, link, id } = data;
+            return (
+              <li key={index}>
+                <Link href={link}>{title}</Link>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
       <div className={classes.social}>
         <h3>Sociala medier</h3>
         <ul>
@@ -41,7 +47,7 @@ const Footer = () => {
             const { link, icon, text } = data;
             return (
               <li key={index}>
-                <a href={link}>
+                <a alt="social media" href={link}>
                   <i className={icon}></i>
                 </a>
               </li>
@@ -60,7 +66,3 @@ export default Footer;
           <a href="https://www.freepik.com/vectors/work">
             Work vector created by stories - www.freepik.com
           </a>*/
-
-/*<div className={classes.logo}>
-        <Logo />
-      </div>*/

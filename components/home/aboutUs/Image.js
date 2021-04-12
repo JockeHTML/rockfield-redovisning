@@ -4,7 +4,7 @@ import classes from "./image.module.css";
 const Image = () => {
   return (
     <div className={classes.img}>
-      <img src="./images/who.jpg" alt="personlig service" />
+      <img src="./images/preview.jpg" alt="personlig service" />
     </div>
   );
 };

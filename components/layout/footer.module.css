@@ -15,7 +15,8 @@
 
 .links,
 .social,
-.contact {
+.contact,
+.title {
   margin: 3.5rem 2rem;
 }
 
@@ -26,9 +27,14 @@
 
 .links ul,
 .contact ul,
-.social ul {
+.social ul,
+.title ul {
   list-style: none;
   padding: 0;
+}
+
+.title p {
+  width: 50%;
 }
 
 .social ul {
@@ -39,7 +45,4 @@
   color: var(--grey);
   margin-right: 10px;
   font-size: 1.6rem;
-}
-
-.logo {
 }

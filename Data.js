@@ -62,7 +62,7 @@ export const contactData = [
   {
     icon: "fas fa-envelope",
     title: "E-post",
-    text: "fredrik.berglund@rockfieldredovisning.se",
+    text: "Fredrik.berglund@rockfieldredovisning.se",
   },
 
   {
@@ -73,7 +73,7 @@ export const contactData = [
   {
     icon: "fas fa-envelope",
     title: "E-post",
-    text: "peter.olofsson@rockfieldredovisning.se",
+    text: "Peter.olofsson@rockfieldredovisning.se",
   },
   {
     icon: "fas fa-phone-alt",

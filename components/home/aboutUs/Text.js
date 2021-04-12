@@ -6,7 +6,7 @@ import BorderButton from "../../ui/BorderButton";
 const Text = () => {
   return (
     <div className={classes.text}>
-      <h2>Vi ger dig en personlig service</h2>
+      <h2>Personlig service</h2>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure,
         dignissimos ratione! Vero sapiente quibusdam eum quos voluptatem natus,

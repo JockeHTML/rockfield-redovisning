@@ -37,8 +37,8 @@ const Services = () => {
           </ul>
         </div>
         <div className={classes.buttons}>
-          <Button>Kontakt</Button>
-          <BorderButton>Hem</BorderButton>
+          <Button>Läs mer</Button>
+          <BorderButton>Kontakt</BorderButton>
         </div>
       </div>
       <Emailjs />
