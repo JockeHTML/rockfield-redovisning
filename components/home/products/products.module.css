@@ -1,0 +1,18 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--padding4) 0;
+}
+
+.content {
+  padding-top: var(--padding4);
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.buttons {
+  display: flex;
+}

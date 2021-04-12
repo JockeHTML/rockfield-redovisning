@@ -1,0 +1,21 @@
+.button {
+  padding: 2rem 0 0 0;
+}
+
+.btn {
+  color: var(--blue);
+  border: 1px solid var(--lightgrey);
+  background-color: var(--white);
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  border-radius: 50px;
+  font-size: var(--size5);
+}
+
+.btn:hover,
+.btn:active {
+  opacity: 0.8;
+}

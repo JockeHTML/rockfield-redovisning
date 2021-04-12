@@ -1,0 +1,16 @@
+.forWho {
+  height: auto;
+  background-color: var(--bg);
+  padding: var(--padding4) 0 var(--padding8) 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

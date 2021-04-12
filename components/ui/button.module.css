@@ -1,0 +1,20 @@
+.button {
+  padding: 2rem 1rem 0 0;
+}
+
+.btn {
+  color: var(--white);
+  background-color: var(--blue);
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  border-radius: 50px;
+  font-size: var(--size5);
+}
+
+.btn:hover,
+.btn:active {
+  opacity: 0.8;
+}

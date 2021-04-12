@@ -1,0 +1,39 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--padding4) 0 0 0;
+}
+
+.img {
+  width: 25%;
+}
+
+.img img {
+  width: 90%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.text {
+  margin-left: 4rem;
+  width: 30%;
+}
+
+.text p {
+  width: 80%;
+}
+
+.text h2 {
+  line-height: 2.2rem;
+
+  margin-bottom: var(--size4);
+}
+
+.content a {
+  color: var(--lightblue);
+}
+
+.content a:hover {
+  color: var(--grey);
+}

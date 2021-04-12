@@ -1,0 +1,29 @@
+.header {
+  background-color: var(--white);
+  height: 100px;
+  width: 100%;
+  border-bottom: 1px solid var(--lightgrey);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header li {
+  list-style: none;
+  margin-right: 3rem;
+}
+
+.header ul {
+  display: flex;
+}
+
+.header a {
+  color: var(--blue);
+  font-weight: 600;
+  font-size: var(--size5);
+}
+
+.header a:hover,
+.header a:active {
+  color: var(--blue);
+}

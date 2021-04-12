@@ -1,0 +1,33 @@
+.services {
+  width: 60%;
+  padding: var(--padding4) 0;
+  display: flex;
+}
+
+.text p {
+  width: 100%;
+}
+
+.text h2 {
+  margin-bottom: var(--size2);
+  width: 100%;
+  line-height: 2.2rem;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.list li {
+  padding-bottom: 1rem;
+}
+
+.list ul {
+  padding-left: 1rem;
+}
+
+.buttons {
+  display: flex;
+}

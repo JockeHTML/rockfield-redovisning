@@ -1,0 +1,9 @@
+.logo {
+  margin: 0 2rem;
+  background-color: transparent;
+}
+
+.logo img {
+  width: 300px;
+  margin-bottom: 10px;
+}

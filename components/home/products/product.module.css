@@ -1,0 +1,33 @@
+.icon {
+  color: var(--blue);
+  width: 75px;
+  height: 75px;
+  margin-bottom: 10px;
+}
+
+.product {
+  width: 50%;
+  padding: var(--padding2) 0;
+}
+
+.product p {
+  text-align: center;
+  width: 70%;
+}
+
+.product h4 {
+  cursor: pointer;
+  color: var(--blue);
+  padding-top: 1rem;
+}
+
+.product h2 {
+  margin-bottom: var(--size4);
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

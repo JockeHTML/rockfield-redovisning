@@ -1,0 +1,45 @@
+.footer {
+  display: flex;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--bg);
+  height: 300px;
+  justify-content: center;
+  border-top: 1px solid var(--lightgrey);
+}
+
+.footer h3 {
+  color: var(--blue);
+}
+
+.links,
+.social,
+.contact {
+  margin: 3.5rem 2rem;
+}
+
+.links a {
+  font-size: var(--size5);
+  color: var(--grey);
+}
+
+.links ul,
+.contact ul,
+.social ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social ul {
+  display: flex;
+}
+
+.social i {
+  color: var(--grey);
+  margin-right: 10px;
+  font-size: 1.6rem;
+}
+
+.logo {
+}

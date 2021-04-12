@@ -1,0 +1,18 @@
+.text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text h2 {
+  margin-bottom: var(--size4);
+}
+
+.text p {
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}

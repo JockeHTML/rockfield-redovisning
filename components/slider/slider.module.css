@@ -1,0 +1,20 @@
+.slider {
+  height: 300px;
+  background-color: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slider h2 {
+  padding-bottom: var(--padding2);
+  color: var(--white);
+  text-align: center;
+}
+
+.slider p {
+  width: 30%;
+  color: var(--white);
+  text-align: center;
+}
