@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./content.module.css";
 import { contactData } from "../../Data";
-import Emailjs from "./emailjs";
+import Emailjs from "./Emailjs";
 
 const Content = () => {
   return (
