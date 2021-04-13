@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import classes from "./menu.module.css";
-import { navigationData } from "../../Data";
+import { navigationData } from "../../../Data";
 
 const Menu = () => {
   const [openMenu, setOpenMenu] = useState(false);

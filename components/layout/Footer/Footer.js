@@ -1,7 +1,6 @@
 import React from "react";
 import classes from "./footer.module.css";
-import Logo from "../layout/Logo";
-import { contactData, navigationData, socialMediaData } from "../../Data";
+import { contactData, navigationData } from "../../../Data";
 import Link from "next/link";
 
 const Footer = () => {
@@ -44,16 +43,22 @@ const Footer = () => {
       <div className={classes.social}>
         <h3>Sociala medier</h3>
         <ul>
-          {socialMediaData.map((data, index) => {
-            const { link, icon, text } = data;
-            return (
-              <li key={index}>
-                <a alt="social media" href={link}>
-                  <i className={icon}></i>
-                </a>
-              </li>
-            );
-          })}
+          <li>
+            <a
+              alt="facebook"
+              href="https://www.facebook.com/rockfieldredovisning"
+            >
+              <i className="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              alt="instagram"
+              href="https://www.instagram.com/explore/locations/106091457623831/Rockfield%20Redovisning%20AB/"
+            >
+              <i className="fab fa-instagram"></i>
+            </a>
+          </li>
         </ul>
       </div>
     </div>

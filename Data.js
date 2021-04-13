@@ -86,19 +86,3 @@ export const contactData = [
     text: "Ponnyvägen 6, 857 50 Sundsvall",
   },
 ];
-
-export const socialMediaData = [
-  {
-    icon: "fab fa-facebook",
-    link: "https://www.facebook.com/rockfieldredovisning",
-  },
-  {
-    icon: "fab fa-instagram",
-    link:
-      "https://www.instagram.com/explore/locations/106091457623831/Rockfield%20Redovisning%20AB/",
-  },
-  {
-    icon: "fab fa-linkedin-in",
-    link: "https://www.linkedin.com",
-  },
-];
