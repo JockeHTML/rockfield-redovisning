@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./footer.module.css";
-import { contactData, navigationData } from "../../../Data";
+import { contactData, navigationData } from "../../Data";
 import Link from "next/link";
 
 const Footer = () => {

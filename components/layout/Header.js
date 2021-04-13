@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./header.module.css";
-import { navigationData } from "../../../Data";
+import { navigationData } from "../../Data";
 import Link from "next/link";
 import Logo from "./Logo";
 import Menu from "./Menu";
