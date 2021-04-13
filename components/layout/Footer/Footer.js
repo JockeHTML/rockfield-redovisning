@@ -9,7 +9,6 @@ const Footer = () => {
       <div className={classes.title}>
         <h3>Rockfield Redovisning</h3>
         <ul>
-          {" "}
           <p>Din klippa inom redovisningstjänster</p>
         </ul>
       </div>
