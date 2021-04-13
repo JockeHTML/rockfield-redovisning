@@ -31,3 +31,17 @@
 .buttons {
   display: flex;
 }
+
+@media (max-width: 768px) {
+  .services {
+    flex-direction: column;
+    width: 100%;
+    padding: var(--padding2) 1.5rem;
+  }
+  .list li:nth-child(5) {
+    padding-bottom: 0;
+  }
+  .text {
+    padding-bottom: 1rem;
+  }
+}

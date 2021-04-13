@@ -52,18 +52,29 @@
     flex-direction: column;
     height: auto;
   }
-
   .links,
   .contact {
     margin: 0;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
   }
   .title {
     margin: 0;
-    padding: 2rem 0 0 1rem;
+    padding: 2rem 0 0 1.5rem;
   }
   .social {
     margin: 0;
-    padding: 0 0 2rem 1rem;
+    padding: 0 0 2rem 1.5rem;
+  }
+  .contact {
+    width: auto;
+  }
+  .title p {
+    width: 100%;
+  }
+  .links ul,
+  .contact ul,
+  .social ul,
+  .title ul {
+    margin-top: 5px;
   }
 }

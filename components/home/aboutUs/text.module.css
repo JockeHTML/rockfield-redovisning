@@ -18,11 +18,8 @@
 }
 
 @media (max-width: 768px) {
-  .text {
-    padding: 0 1rem;
-  }
   .text h2 {
-    margin-top: var(--padding2);
+    margin-top: 1.5rem;
   }
   .buttons {
     justify-content: center;

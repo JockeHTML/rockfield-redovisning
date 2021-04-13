@@ -18,10 +18,11 @@ const Footer = () => {
         <h3>Kontakt</h3>
         <ul>
           {contactData.map((data, index) => {
-            const { text } = data;
+            const { text, mail } = data;
             return (
               <li key={index}>
                 <p>{text}</p>
+                <p>{mail}</p>
               </li>
             );
           })}
@@ -31,7 +32,7 @@ const Footer = () => {
         <h3>Länkar</h3>
         <ul>
           {navigationData.map((data, index) => {
-            const { title, link, id } = data;
+            const { title, link } = data;
             return (
               <li key={index}>
                 <Link href={link}>{title}</Link>

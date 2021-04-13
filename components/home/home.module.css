@@ -47,15 +47,16 @@
 @media (max-width: 768px) {
   .homePage {
     height: auto;
+    padding: var(--padding2) 1.5rem;
   }
   .content {
     flex-direction: column;
     width: 100%;
-    padding: var(--padding2) 0;
+    padding: 0;
   }
   .text {
     width: 100%;
-    padding: 0 1rem;
+    padding: 0;
   }
   .text p {
     width: 100%;

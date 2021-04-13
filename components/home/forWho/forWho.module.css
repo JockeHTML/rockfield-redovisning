@@ -25,7 +25,7 @@
     width: 100%;
   }
   .forWho {
-    padding: var(--padding4) 0 var(--padding2) 0;
+    padding: var(--padding2) 1.5rem;
   }
   .title {
     padding-bottom: var(--padding2);

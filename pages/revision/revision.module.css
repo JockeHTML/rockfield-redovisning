@@ -5,3 +5,9 @@
   align-items: center;
   padding: var(--padding8) 0 var(--padding8) 0;
 }
+
+@media (max-width: 768px) {
+  .revision {
+    padding: var(--padding2) 0 0 0;
+  }
+}

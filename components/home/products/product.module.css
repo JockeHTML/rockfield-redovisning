@@ -35,7 +35,10 @@
 @media (max-width: 768px) {
   .product {
     width: 100%;
-    padding: 0 0 var(--padding2) 0;
+    padding: var(--padding2) 0;
+  }
+  .product:nth-child(4) {
+    padding-bottom: 0;
   }
   .product p {
     width: 100%;

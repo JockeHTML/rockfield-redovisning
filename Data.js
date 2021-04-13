@@ -62,18 +62,18 @@ export const contactData = [
   {
     icon: "fas fa-envelope",
     title: "E-post",
-    text: "Fredrik.berglund@rockfieldredovisning.se",
-  },
-
-  {
-    icon: "fas fa-phone-alt",
-    title: "Telefon",
-    text: "070-337 29 74",
+    text: "Fredrik.berglund",
   },
   {
     icon: "fas fa-envelope",
     title: "E-post",
-    text: "Peter.olofsson@rockfieldredovisning.se",
+    text: "Peter.olofsson",
+    mail: "@rockfieldredovisning.se",
+  },
+  {
+    icon: "fas fa-phone-alt",
+    title: "Telefon",
+    text: "070-337 29 74",
   },
   {
     icon: "fas fa-phone-alt",

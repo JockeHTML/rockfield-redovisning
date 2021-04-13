@@ -5,3 +5,9 @@
   align-items: center;
   padding: var(--padding8) 0 0 0;
 }
+
+@media (max-width: 768px) {
+  .contact {
+    padding: var(--padding2) 1.5rem;
+  }
+}
