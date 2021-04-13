@@ -14,11 +14,13 @@ const Content = () => {
         </p>
         <div className={classes.icons}>
           {contactData.map((contact, index) => {
-            const { title, text, icon, address } = contact;
+            const { text, icon, src } = contact;
             return (
               <div className={classes.iconsContent} key={index}>
                 <span>
-                  <i className={icon}></i>
+                  <a href={src}>
+                    <i className={icon}></i>
+                  </a>
                 </span>
 
                 <p>{text}</p>

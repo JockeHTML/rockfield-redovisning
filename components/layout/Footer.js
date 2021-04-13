@@ -16,12 +16,14 @@ const Footer = () => {
         <h3>Kontakt</h3>
         <ul>
           {contactData.map((data, index) => {
-            const { text, mail } = data;
+            const { text, src, icon } = data;
             return (
-              <li key={index}>
+              <span key={index}>
+                <a href={src}>
+                  <i className={icon}></i>
+                </a>
                 <p>{text}</p>
-                <p>{mail}</p>
-              </li>
+              </span>
             );
           })}
         </ul>
@@ -48,14 +50,6 @@ const Footer = () => {
               href="https://www.facebook.com/rockfieldredovisning"
             >
               <i className="fab fa-facebook"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              alt="instagram"
-              href="https://www.instagram.com/explore/locations/106091457623831/Rockfield%20Redovisning%20AB/"
-            >
-              <i className="fab fa-instagram"></i>
             </a>
           </li>
         </ul>

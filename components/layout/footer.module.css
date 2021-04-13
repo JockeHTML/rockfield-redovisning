@@ -13,6 +13,19 @@
   color: var(--blue);
 }
 
+.contact a {
+  align-items: center;
+  display: flex;
+}
+
+.contact span {
+  display: flex;
+}
+
+.contact i {
+  width: 25px;
+}
+
 .links,
 .social,
 .contact,
@@ -42,7 +55,6 @@
 }
 
 .social i {
-  color: var(--grey);
   margin-right: 10px;
   font-size: 1.6rem;
 }
