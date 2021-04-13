@@ -36,12 +36,15 @@
   .services {
     flex-direction: column;
     width: 100%;
-    padding: var(--padding2) 1.5rem;
+    padding: var(--padding2) 0 0 0;
   }
   .list li:nth-child(5) {
     padding-bottom: 0;
   }
   .text {
-    padding-bottom: 1rem;
+    padding: 0 0 1rem 0;
+  }
+  .buttons {
+    justify-content: center;
   }
 }

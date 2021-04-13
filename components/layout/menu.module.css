@@ -1,0 +1,78 @@
+.firstIcon i {
+  display: none;
+  color: var(--blue);
+  right: 30px;
+  top: 30px;
+  font-size: var(--size8);
+  cursor: pointer;
+  z-index: 3;
+  position: absolute;
+}
+
+.secondIcon i {
+  position: absolute;
+  display: none;
+  color: var(--blue);
+  right: 30px;
+  top: 30px;
+  font-size: var(--size8);
+  cursor: pointer;
+  z-index: 3;
+}
+
+.menu {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  pointer-events: none;
+  transition: all 400ms ease-out;
+}
+
+.menuOpen {
+  transition: all 400ms ease-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--bg);
+  opacity: 0.95;
+  z-index: 2;
+}
+
+.menuOpen h2 {
+  cursor: pointer;
+  color: var(--white);
+  padding: 10px 0;
+}
+
+.menuOpen a {
+  font-size: var(--size8);
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: flex;
+  }
+  .firstIcon i,
+  .secondIcon i {
+    display: flex;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .menu {
+    display: flex;
+  }
+  .firstIcon i,
+  .secondIcon i {
+    display: flex;
+  }
+}

@@ -37,3 +37,31 @@
 .content a:hover {
   color: var(--grey);
 }
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    padding: var(--padding2) 0 0 0;
+  }
+  .text h2 {
+    padding-top: 1.5rem;
+  }
+
+  .text {
+    width: 100%;
+    margin: 0;
+  }
+  .text p {
+    width: 100%;
+  }
+  .img {
+    width: 100%;
+  }
+  .img img {
+    height: 250px;
+    width: 100%;
+  }
+  .buttons {
+    justify-content: center;
+  }
+}

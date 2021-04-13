@@ -5,3 +5,9 @@
   align-items: center;
   padding: 1rem 0;
 }
+
+@media (max-width: 768px) {
+  .products {
+    padding: 0;
+  }
+}

@@ -5,7 +5,6 @@ import classes from "../revision/revision.module.css";
 const index = () => {
   return (
     <div className={classes.revision}>
-      <h1>Affärsrådgivning</h1>
       <Services />
     </div>
   );

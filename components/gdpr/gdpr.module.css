@@ -5,3 +5,9 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .gdpr {
+    padding: var(--padding2) 1.5rem;
+  }
+}
