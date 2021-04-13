@@ -20,11 +20,12 @@ const Menu = () => {
       <div className={openMenu ? classes.menuOpen : classes.menu}>
         {openMenu ? (
           <div className={classes.menuLinks}>
-            {navigationData.map((link, index) => {
+            {navigationData.map((data, index) => {
+              const { link, title, id } = data;
               return (
                 <h2 key={index}>
-                  <a onClick={() => setOpenMenu(false)} href={link.url}>
-                    {link.title}
+                  <a onClick={() => setOpenMenu(false)} href={link}>
+                    {title}
                   </a>
                 </h2>
               );

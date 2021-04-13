@@ -25,7 +25,9 @@
   }
   .slider h2 {
     padding-top: var(--padding2);
-    width: 80%;
+    padding-bottom: 10px;
+    width: 100%;
+    font-size: var(--size6);
   }
   .slider {
     height: auto;
