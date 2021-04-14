@@ -9,6 +9,10 @@
   position: absolute;
 }
 
+.firstIcon {
+  display: none;
+}
+
 .secondIcon i {
   position: absolute;
   display: none;
@@ -21,6 +25,7 @@
 }
 
 .menu {
+  display: none;
   position: absolute;
   opacity: 0;
   top: 0;
@@ -63,6 +68,9 @@
   }
   .firstIcon i,
   .secondIcon i {
+    display: flex;
+  }
+  .firstIcon {
     display: flex;
   }
 }

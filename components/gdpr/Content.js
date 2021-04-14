@@ -16,12 +16,7 @@ const Content = () => {
           quod doloribus beatae? Minima quae unde nihil placeat. Cum vel earum
           reprehenderit animi.
         </p>
-        <br />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem
-          totam magni. Vero temporibus accusamus commodi nesciunt, placeat
-          voluptatibus molestias.
-        </p>
+
         <br />
 
         <p>

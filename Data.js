@@ -29,13 +29,6 @@ export const navigationData = [
 
 export const productsData = [
   {
-    link: "/revision",
-    title: "Revision",
-    icon: "ChatIcon",
-    text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor distinctio perspiciatis ipsam eos obcaecati.",
-  },
-  {
     link: "/affarsradgivning",
     title: "Affärsrådgivning",
     icon: "ClipboardListIcon",
@@ -50,9 +43,16 @@ export const productsData = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor distinctio perspiciatis ipsam eos obcaecati.",
   },
   {
-    link: "/skatteradgivning",
-    title: "Skatterådgivning",
+    link: "/loneadministration",
+    title: "Löneadministration",
     icon: "BookOpenIcon",
+    text:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor distinctio perspiciatis ipsam eos obcaecati.",
+  },
+  {
+    link: "/momsredovisning",
+    title: "Momsredovisning",
+    icon: "ChatIcon",
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor distinctio perspiciatis ipsam eos obcaecati.",
   },
@@ -64,6 +64,12 @@ export const contactData = [
     title: "E-post",
     text: "Fredrik Berglund",
     src: "mailto:Fredrik.berglund@rockfieldredovisning.se",
+  },
+  {
+    icon: "fas fa-phone-alt",
+    title: "Telefon",
+    text: "070-337 29 74",
+    src: "tel:+46706172710",
   },
   {
     icon: "fas fa-envelope",

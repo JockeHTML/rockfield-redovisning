@@ -1,6 +1,6 @@
 import React from "react";
 import Services from "../../components/ui/Services";
-import classes from "../revision/revision.module.css";
+import classes from "../momsredovisning/momsredovisning.module.css";
 
 const index = () => {
   return (

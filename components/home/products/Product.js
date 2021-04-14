@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const Product = ({ title, text, link }) => {
   const showIcon = () => {
-    if (title === "Revision") {
+    if (title === "Momsredovisning") {
       return <ClipboardListIcon className={classes.icon} />;
     }
     if (title === "Affärsrådgivning") {
@@ -19,7 +19,7 @@ const Product = ({ title, text, link }) => {
     if (title === "Redovisning") {
       return <BookOpenIcon className={classes.icon} />;
     }
-    if (title === "Skatterådgivning") {
+    if (title === "Löneadministration") {
       return <ChatIcon className={classes.icon} />;
     }
   };

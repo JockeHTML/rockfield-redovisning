@@ -85,7 +85,7 @@ h2 {
   padding: 0;
   color: var(--primary);
   font-size: var(--size10);
-  line-height: 1.75rem;
+  line-height: 2rem;
 }
 
 @media (max-width: 768px) {

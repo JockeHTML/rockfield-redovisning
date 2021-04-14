@@ -1,6 +1,6 @@
 .header {
   background-color: var(--white);
-  height: 100px;
+  height: 120px;
   width: 100%;
   border-bottom: 1px solid var(--lightgrey);
   display: flex;
@@ -24,6 +24,7 @@
 
 .header ul {
   display: flex;
+  padding: 0;
 }
 
 .header a {
@@ -49,5 +50,8 @@
 @media (max-width: 768px) {
   .header ul {
     display: none;
+  }
+  .header {
+    flex-direction: flex-start;
   }
 }

@@ -24,6 +24,7 @@
 
 .contact i {
   width: 25px;
+  color: var(--grey);
 }
 
 .links,
@@ -55,8 +56,10 @@
 }
 
 .social i {
+  color: var(--grey);
+
   margin-right: 10px;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 @media (max-width: 768px) {

@@ -21,8 +21,8 @@ const Footer = () => {
               <span key={index}>
                 <a href={src}>
                   <i className={icon}></i>
+                  <p>{text}</p>
                 </a>
-                <p>{text}</p>
               </span>
             );
           })}

@@ -1,11 +1,11 @@
 import React from "react";
 import Services from "../../components/ui/Services";
-import classes from "../revision/revision.module.css";
+import classes from "./momsredovisning.module.css";
 
 const index = () => {
   return (
     <div className={classes.revision}>
-      <h1>Skatterådgivning</h1>
+      <h1>Momsredovisning </h1>
       <Services />
     </div>
   );

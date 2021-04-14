@@ -1,18 +1,16 @@
 .logo {
-  margin: 0 2rem;
   background-color: transparent;
+  width: auto;
+  display: flex;
 }
 
 .logo img {
-  width: 300px;
+  width: 450px;
   margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {
-  .logo {
-    margin: 0;
-  }
   .logo img {
-    width: 250px;
+    width: 350px;
   }
 }

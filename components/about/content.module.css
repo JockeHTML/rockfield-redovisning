@@ -119,18 +119,20 @@
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
   .text {
-    width: 100%;
+    width: 50%;
     margin: 0;
+    margin-right: 5rem;
   }
   .text p {
     width: 100%;
   }
   .img {
-    width: 100%;
+    width: 50%;
     margin-right: 4rem;
   }
   .img img {
-    width: 100%;
+    width: 80%;
+    margin-left: 5rem;
   }
   .content {
     width: 100%;
