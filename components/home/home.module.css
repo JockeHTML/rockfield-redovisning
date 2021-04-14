@@ -14,7 +14,7 @@
 }
 
 .text {
-  width: 30%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   padding: 0 1rem;
@@ -23,7 +23,8 @@
 
 .text h1 {
   margin-bottom: var(--size4);
-  width: 80%;
+  width: 90%;
+  font-size: var(--size20);
 }
 
 .text p {
