@@ -10,6 +10,7 @@
   width: 450px;
   height: 300px;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .img h1 {
@@ -21,7 +22,6 @@
     margin: 0;
   }
   .img img {
-    border-radius: 0;
     width: 100%;
   }
 }

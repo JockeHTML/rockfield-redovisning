@@ -10,6 +10,11 @@ const Footer = () => {
         <h3>Rockfield Redovisning</h3>
         <ul>
           <p>Din klippa inom redovisningstjänster</p>
+          <li>
+            <a href="https://www.freepik.com/vectors/security">
+              Security & Work vector created by stories - www.freepik.com
+            </a>
+          </li>
         </ul>
       </div>
       <div className={classes.contact}>
@@ -18,14 +23,18 @@ const Footer = () => {
           {contactData.map((data, index) => {
             const { text, src, icon } = data;
             return (
-              <span key={index}>
+              <li key={index}>
                 <a href={src}>
                   <i className={icon}></i>
                   <p>{text}</p>
                 </a>
-              </span>
+              </li>
             );
           })}
+          <li>
+            <i className="fas fa-map-marker-alt"></i>
+            <p>Ponnyvägen 6, 857 50 Sundsvall</p>
+          </li>
         </ul>
       </div>
       <div className={classes.links}>
@@ -59,9 +68,3 @@ const Footer = () => {
 };
 
 export default Footer;
-/*<a href="https://www.freepik.com/vectors/security">
-            Security vector created by stories - www.freepik.com
-          </a>
-          <a href="https://www.freepik.com/vectors/work">
-            Work vector created by stories - www.freepik.com
-          </a>*/

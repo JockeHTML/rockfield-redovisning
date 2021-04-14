@@ -30,7 +30,9 @@ const Product = ({ title, text, link }) => {
       <h2>{title}</h2>
       <p>{text}</p>
       <Link href={link}>
-        <h4>Läs mer</h4>
+        <a href="#" alt={link}>
+          Läs mer
+        </a>
       </Link>
     </div>
   );

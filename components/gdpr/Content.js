@@ -1,9 +1,11 @@
 import React from "react";
 import classes from "./content.module.css";
+import Button from "../ui/Button";
+import BorderButton from "../ui/BorderButton";
 
 const Content = () => {
   return (
-    <div className={classes.content}>
+    <div className={classes.gdpr}>
       <div className={classes.img}>
         <img src="./images/GDPR-amico.png" alt="Peter och Niklas" />
       </div>
@@ -20,9 +22,15 @@ const Content = () => {
         <br />
 
         <p>
-          <a href="#">Klicka här</a> för att läsa om hur vi hanterar
-          personuppgifter.
+          <a style={{ color: "var(--lightblue)" }} href="#">
+            Klicka här
+          </a>{" "}
+          för att läsa om hur vi hanterar personuppgifter.
         </p>
+        <div className={classes.buttons}>
+          <Button>Läs mer</Button>
+          <BorderButton>Kontakt</BorderButton>
+        </div>
       </div>
     </div>
   );

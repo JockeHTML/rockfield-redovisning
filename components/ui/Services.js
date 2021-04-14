@@ -4,35 +4,25 @@ import Button from "../ui/Button";
 import BorderButton from "../ui/BorderButton";
 import Emailjs from "../contact/Emailjs";
 
-const Services = () => {
+const Services = ({ title, text, service1, service2, service3, service4 }) => {
   return (
     <div className={classes.services}>
       <div className={classes.text}>
-        <h2>Tjänster vi erbjuder inom Revision</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
-          quibusdam incidunt dignissimos ea commodi dolorum perferendis iste
-          rerum magni quisquam!
-        </p>
+        <h2>{title}</h2>
+        <p>{text}</p>
         <div className={classes.list}>
           <ul>
             <li>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>{service1}</p>
             </li>
             <li>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>{service2}</p>
             </li>
-
             <li>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>{service3}</p>
             </li>
-
             <li>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </li>
-
-            <li>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>{service4}</p>
             </li>
           </ul>
         </div>

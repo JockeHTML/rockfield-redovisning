@@ -15,10 +15,11 @@
   width: 70%;
 }
 
-.product h4 {
+.product a {
   cursor: pointer;
   color: var(--blue);
   padding-top: 1rem;
+  font-size: 1.3rem;
 }
 
 .product h2 {

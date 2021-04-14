@@ -25,9 +25,13 @@ function Emailjs() {
           <p>Meddelande</p>
         </label>
         <textarea name="message" />
+
         <input className={classes.btn} type="submit" value="Skicka" />
       </form>
     </div>
   );
 }
 export default Emailjs;
+
+/* <label>Attach file:</label>
+        <input type="file" name="my_file"></input> */

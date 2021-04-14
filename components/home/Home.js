@@ -8,7 +8,7 @@ const HomePage = () => {
     <div className={classes.homePage}>
       <div className={classes.content}>
         <div className={classes.text}>
-          <h1>Vi är specialister på allt inom redovisning</h1>
+          <h1>Vi är specialister på redovisning</h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
             aspernatur doloribus aliquam? Sed officiis doloremque cumque

@@ -20,7 +20,14 @@
   padding-bottom: 1rem;
 }
 
-.icons i {
+.address {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.icons i,
+.address i {
   font-size: 2rem;
   color: var(--blue);
 }
@@ -29,7 +36,8 @@
   padding-top: var(--padding2);
 }
 
-.icons span {
+.icons span,
+.address span {
   display: flex;
   align-items: center;
   width: 50px;

@@ -83,10 +83,52 @@ export const contactData = [
     text: "070-617 27 10",
     src: "tel:+46706172710",
   },
+];
 
+export const affarsradgivningData = [
   {
-    icon: "fas fa-map-marker-alt",
-    title: "Address",
-    text: "Ponnyvägen 6, 857 50 Sundsvall",
+    title: "Tjänster inom Affärsrådgivning",
+    text:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quibusdam incidunt dignissimos ea commodi dolorum perferendis iste rerum magni quisquam!",
+    service1: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    service2: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    service3: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    service4: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+  },
+];
+
+export const loneadministrationData = [
+  {
+    title: "Tjänster inom Löneadministration",
+    text:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quibusdam incidunt dignissimos ea commodi dolorum perferendis iste rerum magni quisquam!",
+    service1: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    service2: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    service3: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    service4: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+  },
+];
+
+export const momsredovisningData = [
+  {
+    title: "Tjänster inom Momsredovisning",
+    text:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quibusdam incidunt dignissimos ea commodi dolorum perferendis iste rerum magni quisquam!",
+    service1: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    service2: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    service3: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    service4: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+  },
+];
+
+export const redovisningData = [
+  {
+    title: "Tjänster inom Redovisning",
+    text:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quibusdam incidunt dignissimos ea commodi dolorum perferendis iste rerum magni quisquam!",
+    service1: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    service2: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    service3: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    service4: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
   },
 ];

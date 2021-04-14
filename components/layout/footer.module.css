@@ -18,8 +18,9 @@
   display: flex;
 }
 
-.contact span {
+.contact li {
   display: flex;
+  align-items: center;
 }
 
 .contact i {
@@ -57,9 +58,14 @@
 
 .social i {
   color: var(--grey);
-
   margin-right: 10px;
   font-size: 2rem;
+}
+
+.title a {
+  color: var(--grey);
+  margin-right: 10px;
+  font-size: 10px;
 }
 
 @media (max-width: 768px) {

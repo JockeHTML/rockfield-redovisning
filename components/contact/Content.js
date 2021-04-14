@@ -22,11 +22,16 @@ const Content = () => {
                     <i className={icon}></i>
                   </a>
                 </span>
-
                 <p>{text}</p>
               </div>
             );
           })}
+        </div>
+        <div className={classes.address}>
+          <span>
+            <i className="fas fa-map-marker-alt"></i>
+          </span>
+          <p>Ponnyvägen 6, 857 50 Sundsvall</p>
         </div>
       </div>
       <Emailjs />

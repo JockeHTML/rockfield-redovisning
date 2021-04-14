@@ -6,7 +6,6 @@ const Gdpr = () => {
   return (
     <div className={classes.gdpr}>
       <h1>GDPR</h1>
-
       <Content />
     </div>
   );

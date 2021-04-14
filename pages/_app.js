@@ -6,6 +6,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Head>
+        <title>Rockfield Redovisning</title>
+
         <link
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
