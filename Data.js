@@ -1,15 +1,14 @@
 export const navigationData = [
   {
-    title: "Hem",
-    link: "/",
-    id: 1,
-  },
-  {
     title: "Tjänster",
     link: "/products",
     id: 2,
   },
-
+  {
+    title: "Hem",
+    link: "/",
+    id: 1,
+  },
   {
     title: "Om oss",
     link: "/about",
@@ -87,7 +86,7 @@ export const contactData = [
 
 export const affarsradgivningData = [
   {
-    title: "Tjänster inom Affärsrådgivning",
+    title: "Affärsrådgivnings tjänster",
     text:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quibusdam incidunt dignissimos ea commodi dolorum perferendis iste rerum magni quisquam!",
     service1: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
@@ -99,7 +98,7 @@ export const affarsradgivningData = [
 
 export const loneadministrationData = [
   {
-    title: "Tjänster inom Löneadministration",
+    title: "Löneadministrations tjänster",
     text:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quibusdam incidunt dignissimos ea commodi dolorum perferendis iste rerum magni quisquam!",
     service1: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
@@ -111,7 +110,7 @@ export const loneadministrationData = [
 
 export const momsredovisningData = [
   {
-    title: "Tjänster inom Momsredovisning",
+    title: "Momsredovisnings tjänster",
     text:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quibusdam incidunt dignissimos ea commodi dolorum perferendis iste rerum magni quisquam!",
     service1: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
@@ -123,7 +122,7 @@ export const momsredovisningData = [
 
 export const redovisningData = [
   {
-    title: "Tjänster inom Redovisning",
+    title: "Redovisnings tjänster",
     text:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quibusdam incidunt dignissimos ea commodi dolorum perferendis iste rerum magni quisquam!",
     service1: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",

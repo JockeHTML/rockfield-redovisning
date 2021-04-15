@@ -8,8 +8,7 @@ const index = () => {
     <div className={classes.revision}>
       <h1>Löneadministration</h1>
       {loneadministrationData.map((data, index) => {
-        const { title, text, service1, service2, service3, service4 } = data;
-        return <Services {...data} />;
+        return <Services key={index} {...data} />;
       })}
     </div>
   );
