@@ -53,7 +53,6 @@
     padding: var(--padding2) 1.5rem;
     flex-direction: column;
   }
-
   .content {
     flex-direction: column;
     width: 100%;
@@ -68,6 +67,7 @@
   }
   .text h1 {
     width: 100%;
+    font-size: var(--size12);
   }
   .buttons {
     justify-content: center;
