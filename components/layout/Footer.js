@@ -31,10 +31,11 @@ const Footer = () => {
               </li>
             );
           })}
-          <li>
+          <li className={classes.extra}>
             <i className="fas fa-map-marker-alt"></i>
-            <p>Ponnyvägen 6, 857 50 Sundsvall</p>
+            <p>Ponnyvägen 6,</p>
           </li>
+          <p>857 50 SUNDSVALL</p>
         </ul>
       </div>
       <div className={classes.links}>
