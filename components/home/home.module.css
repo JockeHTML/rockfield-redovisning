@@ -3,14 +3,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
 }
 
 .content {
   align-items: center;
   display: flex;
   justify-content: center;
-  padding-bottom: var(--padding8);
 }
 
 .text {
@@ -18,11 +17,10 @@
   display: flex;
   flex-direction: column;
   padding: 0 1rem;
-  margin-bottom: 4rem;
 }
 
 .text h1 {
-  margin-bottom: var(--size4);
+  margin-bottom: var(--size6);
   width: 90%;
   font-size: var(--size20);
 }

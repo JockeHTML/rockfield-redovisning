@@ -7,8 +7,8 @@ const AboutUs = () => {
   return (
     <div className={classes.aboutUs}>
       <div className={classes.content}>
-        <Text />
         <Image />
+        <Text />
       </div>
     </div>
   );

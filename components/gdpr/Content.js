@@ -12,11 +12,13 @@ const Content = () => {
       <div className={classes.text}>
         <h2>Skydd och integritet vid behandling av personuppgifter</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora
-          aliquid at excepturi porro voluptatem praesentium quidem dicta fugiat!
-          Consequuntur rerum illum magnam, voluptatum repudiandae eum ea dolore
-          quod doloribus beatae? Minima quae unde nihil placeat. Cum vel earum
-          reprehenderit animi.
+          För oss är skyddet av personlig integritet viktigt. När vår byrå
+          hjälper våra kunder med t.ex. löner, redovisning, skattefrågor och
+          annan rådgivning hanterar vi personuppgifter för kundföretagets
+          räkning. I revisions‐ och andra granskningsuppdrag kommer vi
+          självständigt att hantera personuppgifter. Oberoende av uppdrag
+          behöver vi hantera personuppgifter för vår egen administration och
+          uppfylla olika regler, t.ex. för att utvärdera våra uppdrag.
         </p>
 
         <br />

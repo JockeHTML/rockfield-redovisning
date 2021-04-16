@@ -12,24 +12,21 @@ const Content = () => {
       <div className={classes.text}>
         <h2>Vår historia</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora
-          aliquid at excepturi porro voluptatem praesentium quidem dicta fugiat!
-          Consequuntur rerum illum magnam, voluptatum repudiandae eum ea dolore
-          quod doloribus beatae? Minima quae unde nihil placeat. Cum vel earum
-          reprehenderit animi.
+          Rockfield Redovisning är en redovisningsbyrå som startade upp i början
+          på 2020, men hos oss finns det många års erfarenhet inom
+          redovisningsbranschen. Vi valde att starta vår byrå på grund av vi såg
+          ett stort behov för företag att få någon att vända sig till som de
+          kände sig trygg med och kunde lita på. Vi fokuserar därför på att
+          jobba fram ett förtroende hos våra kunder och ett långsiktigt
+          samarbete där vi kan utvecklas tillsammans.
         </p>
         <br />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem
-          totam magni. Vero temporibus accusamus commodi nesciunt, placeat
-          voluptatibus molestias.
+          Vi befinner oss i Sundsvall men har även kunder i andra orter i
+          Sverige, vilket har fungerat väldigt bra då vi har möjlighet att göra
+          stora delar av arbetet digitalt.
         </p>
-        <br />
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
-          reprehenderit quisquam, tenetur corrupti architecto eius illum
-          voluptatem laudantium adipisci natus.
-        </p>
+
         <div className={classes.buttons}>
           <ProductButton>Tjänster</ProductButton>
           <BorderButton>Kontakt</BorderButton>

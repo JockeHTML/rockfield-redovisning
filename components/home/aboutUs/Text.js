@@ -8,10 +8,9 @@ const Text = () => {
     <div className={classes.text}>
       <h2>Personlig service</h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure,
-        dignissimos ratione! Vero sapiente quibusdam eum quos voluptatem natus,
-        corporis, quo iure error illo deleniti dolorum nulla enim voluptas optio
-        nihil!
+        Vi strävar mot ett nära samarbete med våra kunder där vi får en tydlig
+        bild över deras verksamhet och behov för att kunna hitta de bästa
+        individuella lösningarna för varje enskild kund.
       </p>
       <div className={classes.buttons}>
         <Button>Läs mer</Button>

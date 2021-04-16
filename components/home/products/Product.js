@@ -10,13 +10,13 @@ import Link from "next/link";
 
 const Product = ({ title, text, link }) => {
   const showIcon = () => {
-    if (title === "Momsredovisning") {
+    if (title === "Betalningsuppdrag") {
       return <ClipboardListIcon className={classes.icon} />;
     }
     if (title === "Affärsrådgivning") {
       return <ChartBarIcon className={classes.icon} />;
     }
-    if (title === "Redovisning") {
+    if (title === "Löpande redovisning") {
       return <BookOpenIcon className={classes.icon} />;
     }
     if (title === "Löneadministration") {

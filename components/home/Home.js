@@ -10,10 +10,11 @@ const HomePage = () => {
         <div className={classes.text}>
           <h1>Vi är specialister på redovisning</h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
-            aspernatur doloribus aliquam? Sed officiis doloremque cumque
-            laboriosam facere dolorem, expedita illum, minima, tempora iure
-            perferendis dolor consequatur in nam. Dicta?
+            Vi på Rockfield Redovisning har många års erfarenhet inom
+            redovisningsbranschen och ser fram emot att få hjälpa dig och ditt
+            företag. Vi tror på en personlig och långsiktig relation med våra
+            kunder och ser framemot att få hjälpa just er med era behov så ni
+            kan fokusera på verksamheten och det ni är bra på.
           </p>
           <div className={classes.buttons}>
             <Button>Läs mer</Button>

@@ -6,12 +6,11 @@ import BorderButton from "../../ui/BorderButton";
 const Text = () => {
   return (
     <div className={classes.text}>
-      <h2>Företag & Privatperson</h2>
+      <h2>Våra kunder</h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure,
-        dignissimos ratione! Vero sapiente quibusdam eum quos voluptatem natus,
-        corporis, quo iure error illo deleniti dolorum nulla enim voluptas optio
-        nihil!
+        Vi ser framemot att få jobba med er oavsett bolagsform eller storlek. Se
+        gärna över våra tjänster här på hemsidan eller kontakta oss direkt så
+        kan vi se hur vi kan hjälpa er med just eran situation.
       </p>
       <div className={classes.buttons}>
         <Button>Läs mer</Button>
