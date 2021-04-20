@@ -1,4 +1,5 @@
 .content {
+  margin: auto;
   width: 60%;
   padding: var(--padding4) 0;
   display: flex;
@@ -48,7 +49,7 @@
   .content {
     width: 100%;
     flex-direction: column;
-    padding: var(--padding2) 0;
+    padding: var(--padding2) 1.5rem;
   }
   .icons {
     padding-top: 1.5rem;

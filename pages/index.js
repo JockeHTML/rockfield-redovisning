@@ -4,6 +4,7 @@ import ForWho from "../components/home/forWho/ForWho";
 import AboutUs from "../components/home/aboutUs/AboutUs";
 import Slider from "../components/slider/Slider";
 import Products from "../components/home/products/Products";
+import Content from "../components/contact/Content";
 
 export default function Home() {
   return (
@@ -11,7 +12,6 @@ export default function Home() {
       <Head>
         <title>Rockfield Redovisning AB</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-
         <meta
           name="description"
           content="Rockfield Redovisning, Ponnyvägen 6, 857 50 Sundsvall"
@@ -22,6 +22,7 @@ export default function Home() {
       <AboutUs />
       <Slider />
       <Products />
+      <Content />
     </main>
   );
 }

@@ -5,7 +5,7 @@
 .forWho {
   height: auto;
   background-color: var(--bg);
-  padding: var(--padding8) 0 var(--padding4) 0;
+  padding: var(--padding8) 0 var(--padding8) 0;
   display: flex;
   justify-content: center;
   align-items: center;
