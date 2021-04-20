@@ -8,20 +8,32 @@ import { productsData } from "../../Data.js";
 
 const Header = () => {
   const [active, setActive] = useState(false);
+  const onMouseEnter = () => {
+    if (window.innerWidth < 960) {
+      setActive(false);
+    } else {
+      setActive(true);
+    }
+  };
+
+  const onMouseLeave = () => {
+    if (window.innerWidth < 960) {
+      setActive(false);
+    } else {
+      setActive(false);
+    }
+  };
 
   return (
     <div className={classes.header}>
       <Logo />
       <div className={classes.content}>
-        <ul>
-          <li className={classes.extra} onMouseOver={() => setActive(true)}>
+        <ul onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+          <li className={classes.extra}>
             <Link href="/products">Tjänster</Link>
             <i className="fas fa-angle-down"></i>
           </li>
-          <div
-            onMouseLeave={() => setActive(false)}
-            className={active ? classes.activeDropdown : null}
-          >
+          <div className={active ? classes.activeDropdown : null}>
             <ul>
               {active
                 ? productsData.map((data, index) => {
