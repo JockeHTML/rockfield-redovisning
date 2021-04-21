@@ -8,13 +8,13 @@
 
 @media (max-width: 768px) {
   .contact {
-    padding: var(--padding2) 0;
+    padding: var(--padding4) 0;
   }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
   .contact {
-    padding: var(--padding2) 0;
+    padding: var(--padding4) 0;
   }
 }
 

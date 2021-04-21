@@ -25,9 +25,27 @@
     width: 100%;
   }
   .forWho {
-    padding: var(--padding2) 1.5rem;
+    padding: var(--padding4) 1.5rem var(--padding2) 1.5rem;
   }
   .title {
     padding-bottom: var(--padding2);
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .content {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .content {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .content {
+    width: 80%;
   }
 }
