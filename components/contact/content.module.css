@@ -1,7 +1,7 @@
 .content {
   margin: auto;
   width: 60%;
-  padding: var(--padding4) 0;
+  padding: var(--padding4) 0 var(--padding8) 0;
   display: flex;
 }
 

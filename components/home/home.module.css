@@ -48,7 +48,7 @@
 @media (max-width: 768px) {
   .homePage {
     height: auto;
-    padding: var(--padding2) 1.5rem;
+    padding: var(--padding2) 1.5rem var(--padding4) 1.5rem;
     flex-direction: column;
   }
   .content {
@@ -91,13 +91,13 @@
     padding: 0;
   }
   .text p {
-    width: 90%;
+    width: 80%;
   }
   .text h1 {
-    width: 100%;
+    width: 80%;
   }
   .image img {
-    width: 250px;
+    width: 350px;
     padding-top: 3rem;
   }
   .buttons {
@@ -147,18 +147,18 @@
     padding: 0;
   }
   .text {
-    width: 50%;
+    width: 65%;
     padding: 0;
   }
   .text p {
-    width: 100%;
+    width: 90%;
   }
   .text h1 {
     width: 100%;
   }
 
   .image img {
-    width: 350px;
+    width: 400px;
     padding-top: 3rem;
   }
 }
