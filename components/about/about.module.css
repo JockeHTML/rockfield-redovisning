@@ -8,13 +8,16 @@
 
 @media (max-width: 768px) {
   .about {
-    padding: var(--padding2) 1.5rem;
+    padding: var(--padding4) 1.5rem;
+  }
+  .about h1 {
+    text-align: center;
   }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
   .about {
-    padding: var(--padding2) 1.5rem;
+    padding: var(--padding4) 1.5rem;
   }
 }
 
