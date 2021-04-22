@@ -6,23 +6,18 @@ import BorderButton from "../ui/BorderButton";
 const HomePage = () => {
   return (
     <div className={classes.homePage}>
-      <div className={classes.content}>
-        <div className={classes.text}>
-          <h1>Vi är specialister på redovisning</h1>
-          <p>
-            Vi på Rockfield Redovisning har många års erfarenhet inom
-            redovisningsbranschen och ser fram emot att få hjälpa dig och ditt
-            företag. Vi tror på en personlig och långsiktig relation med våra
-            kunder och ser framemot att få hjälpa just er med era behov så ni
-            kan fokusera på verksamheten och det ni är bra på.
-          </p>
-          <div className={classes.buttons}>
-            <Button>Läs mer</Button>
-            <BorderButton>Kontakt</BorderButton>
-          </div>
-        </div>
-        <div className={classes.image}>
-          <img src="./images/Invoice-amico.png" alt="Redovisningstjänster" />
+      <div className={classes.text}>
+        <h1>Vi är specialister på redovisning</h1>
+        <p>
+          Vi på Rockfield Redovisning har många års erfarenhet inom
+          redovisningsbranschen och ser fram emot att få hjälpa dig och ditt
+          företag. Vi tror på en personlig och långsiktig relation med våra
+          kunder och ser framemot att få hjälpa just er med era behov så ni kan
+          fokusera på verksamheten och det ni är bra på.
+        </p>
+        <div className={classes.buttons}>
+          <Button>Om oss</Button>
+          <BorderButton>Kontakt</BorderButton>
         </div>
       </div>
     </div>
@@ -30,3 +25,7 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+/*  <div className={classes.image}>
+          <img src="./images/taxes.jpg" alt="Redovisningstjänster" />
+        </div>*/

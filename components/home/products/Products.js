@@ -4,8 +4,11 @@ import Product from "./Product";
 import { productsData } from "../../../Data";
 import Button from "../../ui/Button";
 import BorderButton from "../../ui/BorderButton";
+import { useRouter } from "next/router";
 
 const Products = () => {
+  const router = useRouter();
+
   return (
     <div className={classes.products}>
       <h1>Våra tjänster</h1>

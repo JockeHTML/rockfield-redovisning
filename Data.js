@@ -1,7 +1,7 @@
 export const navigationData = [
   {
     title: "Tjänster",
-    link: "/products",
+    link: "/tjanster",
     id: 2,
   },
   {

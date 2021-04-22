@@ -30,7 +30,7 @@ const Header = () => {
       <div className={classes.content}>
         <ul onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
           <li className={classes.extra}>
-            <Link href="/products">Tjänster</Link>
+            <Link href="/tjanster">Tjänster</Link>
             <i className="fas fa-angle-down"></i>
           </li>
           <div className={active ? classes.activeDropdown : null}>

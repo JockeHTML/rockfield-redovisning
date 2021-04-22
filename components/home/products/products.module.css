@@ -7,6 +7,15 @@
   padding: var(--padding8) 0;
 }
 
+.white {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--padding8) 0;
+}
+
 .content {
   padding-top: var(--padding4);
   display: flex;

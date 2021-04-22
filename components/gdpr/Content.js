@@ -5,9 +5,9 @@ import BorderButton from "../ui/BorderButton";
 
 const Content = () => {
   return (
-    <div className={classes.gdpr}>
+    <div className={classes.content}>
       <div className={classes.img}>
-        <img src="./images/GDPR-amico.png" alt="Peter och Niklas" />
+        <img src="./images/gdpr.jpg" alt="GDPR bild" />
       </div>
       <div className={classes.text}>
         <h2>Skydd och integritet vid behandling av personuppgifter</h2>

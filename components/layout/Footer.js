@@ -10,11 +10,6 @@ const Footer = () => {
         <h3>Rockfield Redovisning</h3>
         <ul>
           <p>Din klippa inom redovisningstjänster</p>
-          <li>
-            <a href="https://www.freepik.com/vectors/security">
-              Security & Work vector created by stories - www.freepik.com
-            </a>
-          </li>
         </ul>
       </div>
       <div className={classes.contact}>

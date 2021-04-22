@@ -12,7 +12,7 @@ const Services = ({ title, text }) => {
         <p>{text}</p>
 
         <div className={classes.buttons}>
-          <Button>Läs mer</Button>
+          <Button>Om oss</Button>
           <BorderButton>Kontakt</BorderButton>
         </div>
       </div>
@@ -22,20 +22,3 @@ const Services = ({ title, text }) => {
 };
 
 export default Services;
-
-/*<div className={classes.list}>
-          <ul>
-            <li>
-              <p>{service1}</p>
-            </li>
-            <li>
-              <p>{service2}</p>
-            </li>
-            <li>
-              <p>{service3}</p>
-            </li>
-            <li>
-              <p>{service4}</p>
-            </li>
-          </ul>
-        </div/>*/
