@@ -26,18 +26,6 @@
   width: 50%;
 }
 
-.image {
-  width: 35%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.image img {
-  border-radius: 10px;
-  width: 100%;
-}
-
 .buttons {
   display: flex;
 }
@@ -52,6 +40,7 @@
     width: 100%;
     padding: 0;
   }
+
   .text p {
     width: 100%;
   }

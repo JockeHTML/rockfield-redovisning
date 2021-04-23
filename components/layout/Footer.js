@@ -47,7 +47,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className={classes.social}>
-        <h3>Sociala medier</h3>
+        <h3>Följ oss</h3>
         <ul>
           <li>
             <a
