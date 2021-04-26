@@ -40,6 +40,7 @@ const Footer = () => {
             const { title, link } = data;
             return (
               <li key={index}>
+                <i className="fas fa-angle-right"></i>
                 <Link href={link}>{title}</Link>
               </li>
             );

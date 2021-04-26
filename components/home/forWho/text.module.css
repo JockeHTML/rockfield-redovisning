@@ -10,6 +10,7 @@
 
 .text p {
   width: 80%;
+  font-weight: 400;
 }
 
 .buttons {

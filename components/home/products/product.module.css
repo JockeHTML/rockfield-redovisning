@@ -13,6 +13,7 @@
 .product p {
   text-align: center;
   width: 75%;
+  font-weight: 400;
 }
 
 .product a {
@@ -44,6 +45,9 @@
   }
   .product p {
     width: 100%;
+  }
+  .product h2 {
+    text-align: center;
   }
 }
 

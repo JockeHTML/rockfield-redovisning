@@ -13,13 +13,13 @@ const Product = ({ title, text, link }) => {
     if (title === "Betalningsuppdrag") {
       return <ClipboardListIcon className={classes.icon} />;
     }
-    if (title === "Affärsrådgivning") {
+    if (title === "Löneadministration") {
       return <ChartBarIcon className={classes.icon} />;
     }
     if (title === "Löpande redovisning") {
       return <BookOpenIcon className={classes.icon} />;
     }
-    if (title === "Löneadministration") {
+    if (title === "Affärsrådgivning") {
       return <ChatIcon className={classes.icon} />;
     }
   };

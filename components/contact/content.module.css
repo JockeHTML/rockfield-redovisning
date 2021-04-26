@@ -21,6 +21,11 @@
   padding-bottom: 1rem;
 }
 
+.iconsContent p,
+.address p {
+  font-weight: 400;
+}
+
 .address {
   display: flex;
   align-items: center;
