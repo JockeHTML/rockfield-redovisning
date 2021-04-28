@@ -17,7 +17,7 @@
 }
 
 .content {
-  padding-top: var(--padding4);
+  padding-top: var(--padding2);
   display: flex;
   flex-wrap: wrap;
   width: 50%;

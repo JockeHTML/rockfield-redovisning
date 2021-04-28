@@ -16,13 +16,13 @@
   cursor: pointer;
 }
 
+.rest li:nth-child(1) {
+  display: none;
+}
+
 .activeDropdown li {
   list-style: none;
   padding: 1.5rem 0 0 1rem;
-}
-
-.rest li:nth-child(1) {
-  display: none;
 }
 
 .activeDropdown li:nth-child(1) {
@@ -47,15 +47,6 @@
   background-color: var(--white);
   transition: all 250ms linear;
   opacity: 1;
-}
-
-.overlay {
-  flex-direction: column;
-  background-color: var(--blue);
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  display: flex;
 }
 
 .header li {
