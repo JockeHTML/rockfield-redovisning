@@ -1,11 +1,7 @@
 .services {
-  width: 60%;
+  width: 55%;
   padding: var(--padding4) 0 0 0;
   display: flex;
-}
-
-.text p {
-  width: 80%;
 }
 
 .text h2 {

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./product.module.css";
 import {
   ChatIcon,
@@ -7,6 +7,8 @@ import {
   BookOpenIcon,
 } from "@heroicons/react/outline";
 import Link from "next/link";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Product = ({ title, text, link }) => {
   const showIcon = () => {
@@ -24,8 +26,12 @@ const Product = ({ title, text, link }) => {
     }
   };
 
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
-    <div className={classes.product}>
+    <div data-aos="fade-in" className={classes.product}>
       {showIcon()}
       <h2>{title}</h2>
       <p>{text}</p>

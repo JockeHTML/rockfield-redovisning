@@ -40,6 +40,7 @@
 .menuOpen {
   transition: all 400ms ease-out;
   display: flex;
+  padding-top: 1rem;
   justify-content: center;
   align-items: center;
   position: fixed;

@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./aboutUs.module.css";
 import Image from "./Image";
 import Text from "./Text";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const AboutUs = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <div className={classes.aboutUs}>
-      <div className={classes.content}>
+      <div data-aos="fade-left" className={classes.content}>
         <Image />
         <Text />
       </div>
