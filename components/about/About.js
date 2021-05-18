@@ -5,7 +5,7 @@ import Content from "./Content";
 const About = () => {
   return (
     <div className={classes.about}>
-      <h1>Om Rockfield Redovisning</h1>
+      <h1>Rockfield Redovisning</h1>
       <Content />
     </div>
   );

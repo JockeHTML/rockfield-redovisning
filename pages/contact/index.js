@@ -1,9 +1,13 @@
 import React from "react";
 import Contact from "../../components/contact/Contact";
+import classes from "./border.module.css";
 
 const ContactPage = () => {
   return (
     <div>
+      <div className={classes.border}>
+        <h1>Kontakt</h1>
+      </div>
       <Contact />
     </div>
   );

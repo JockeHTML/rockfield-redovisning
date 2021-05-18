@@ -6,7 +6,9 @@ import Map from "./Map";
 const Contact = () => {
   return (
     <div className={classes.contact}>
-      <h1>Kontakta oss</h1>
+      <div className={classes.border}>
+        <h1>Kontakta oss</h1>
+      </div>
       <Content />
       <Map />
     </div>

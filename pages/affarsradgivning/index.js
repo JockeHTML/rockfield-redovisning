@@ -6,7 +6,9 @@ import { affarsradgivningData } from "../../Data";
 const index = () => {
   return (
     <div className={classes.revision}>
-      <h1>Tjänster</h1>
+      <div className={classes.border}>
+        <h1>Affärsrådgivning</h1>
+      </div>
       {affarsradgivningData.map((data, index) => {
         return <Services key={index} {...data} />;
       })}

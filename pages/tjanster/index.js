@@ -5,6 +5,9 @@ import classes from "./products.module.css";
 const ProductsPage = () => {
   return (
     <div className={classes.products}>
+      <div className={classes.border}>
+        <h1>Tjänster</h1>
+      </div>
       <Products />
     </div>
   );
