@@ -9,7 +9,11 @@ const Footer = () => {
       <div className={classes.title}>
         <h3>Rockfield Redovisning</h3>
         <ul>
-          <p>Din klippa inom redovisningstjänster</p>
+          <p>
+            Din klippa inom redovisningstjänster. Vi på Rockfield Redovisning
+            har många års erfarenhet inom redovisningsbranschen och ser fram
+            emot att få hjälpa dig och ditt företag.
+          </p>
         </ul>
       </div>
       <div className={classes.contact}>

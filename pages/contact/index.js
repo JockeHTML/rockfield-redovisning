@@ -6,7 +6,7 @@ const ContactPage = () => {
   return (
     <div>
       <div className={classes.border}>
-        <h1>Kontakt</h1>
+        <h1>KONTAKT</h1>
       </div>
       <Contact />
     </div>

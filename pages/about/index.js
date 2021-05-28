@@ -6,7 +6,7 @@ const AboutPage = () => {
   return (
     <div>
       <div className={classes.border}>
-        <h1>Om oss</h1>
+        <h1>OM OSS</h1>
       </div>
       <About />
     </div>

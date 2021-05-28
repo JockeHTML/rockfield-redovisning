@@ -8,7 +8,7 @@ const Contact = () => {
     <div className={classes.contact}>
       <div className={classes.border}>
         <h4>ROCKFIELD REDOVISNING</h4>
-        <h1>Kontakta oss</h1>
+        <h1>Kontakta Oss Idag</h1>
       </div>
       <Content />
       <Map />

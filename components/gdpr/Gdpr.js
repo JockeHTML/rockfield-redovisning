@@ -5,7 +5,10 @@ import Content from "./Content";
 const Gdpr = () => {
   return (
     <div className={classes.gdpr}>
-      <h1>GDPR</h1>
+      <div className={classes.title}>
+        <h4>ROCKFIELD REDOVISNING</h4>
+        <h1>Din Säkerhet</h1>
+      </div>
       <Content />
     </div>
   );

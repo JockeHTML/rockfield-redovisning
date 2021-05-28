@@ -14,7 +14,7 @@ const forWho = () => {
     <div className={classes.forWho}>
       <span className={classes.title}>
         <h4>REDOVISNING</h4>
-        <h1>Vi hjälper dig</h1>
+        <h1>Vi Hjälper Dig</h1>
       </span>
       <div data-aos="fade-up" className={classes.content}>
         <Image />

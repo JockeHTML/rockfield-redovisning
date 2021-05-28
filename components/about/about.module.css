@@ -1,9 +1,22 @@
 .about {
-  padding: var(--padding8) 1.5rem;
+  padding: var(--padding8) 0 var(--padding8) 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+}
+
+.about h4 {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: black;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
 }
 
 @media (max-width: 768px) {

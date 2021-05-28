@@ -6,7 +6,7 @@ const GdprPage = () => {
   return (
     <div>
       <div className={classes.border}>
-        <h1>Säkerhet</h1>
+        <h1>GDPR</h1>
       </div>
       <Gdpr />
     </div>
