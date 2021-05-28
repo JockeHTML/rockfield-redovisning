@@ -12,7 +12,7 @@ const AboutUs = () => {
 
   return (
     <div className={classes.aboutUs}>
-      <div data-aos="fade-left" className={classes.content}>
+      <div data-aos="fade-up" className={classes.content}>
         <Image />
         <Text />
       </div>

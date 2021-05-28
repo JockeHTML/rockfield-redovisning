@@ -1,7 +1,7 @@
 .formWrapper {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 500px;
   margin-left: 4rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }

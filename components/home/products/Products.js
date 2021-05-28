@@ -15,11 +15,20 @@ const Products = () => {
         router.pathname === "/tjanster" ? classes.white : classes.products
       }
     >
-      <h1>Våra tjänster</h1>
+      <h4>Vi hjälper er hela vägen</h4>
+      <h1>Våra Tjänster</h1>
       <div className={classes.content}>
         {productsData.map((product, index) => {
-          const { title, text, link } = product;
-          return <Product key={index} title={title} text={text} link={link} />;
+          const { title, text, link, icon } = product;
+          return (
+            <Product
+              icon={icon}
+              key={index}
+              title={title}
+              text={text}
+              link={link}
+            />
+          );
         })}
       </div>
       <div className={classes.buttons}>

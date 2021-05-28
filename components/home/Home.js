@@ -7,6 +7,7 @@ const HomePage = () => {
   return (
     <div className={classes.homePage}>
       <div className={classes.text}>
+        <h4>Rockfield Redovisning</h4>
         <h1>Vi är specialister på redovisning</h1>
         <p>
           Vi på Rockfield Redovisning har många års erfarenhet inom

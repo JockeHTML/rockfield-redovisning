@@ -34,9 +34,6 @@
   .text h2 {
     line-height: 1;
   }
-  .buttons {
-    justify-content: flex-start;
-  }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {

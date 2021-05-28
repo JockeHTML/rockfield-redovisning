@@ -1,30 +1,28 @@
-.icon {
-  color: var(--blue);
-  width: 75px;
-  height: 75px;
-  margin-bottom: 10px;
+.product img {
+  margin-bottom: 1rem;
 }
 
 .product {
-  width: 50%;
-  padding: var(--padding2) 0;
+  width: 400px;
+  padding: 0 2rem 4rem 2rem;
+  max-width: 100%;
 }
 
 .product p {
   text-align: center;
-  width: 75%;
   font-weight: 400;
 }
 
 .product a {
   cursor: pointer;
-  color: var(--blue);
-  padding-top: 1rem;
-  font-size: 1.3rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
-.product h2 {
+.product span {
+  margin-top: 1rem;
+}
+
+.product h3 {
   margin-bottom: var(--size4);
 }
 
@@ -38,10 +36,7 @@
 @media (max-width: 768px) {
   .product {
     width: 100%;
-    padding: var(--padding2) 0;
-  }
-  .product:nth-child(4) {
-    padding-bottom: 0;
+    padding: var(--padding4) 0 0 0;
   }
   .product p {
     width: 100%;
@@ -58,9 +53,6 @@
     padding-right: 1rem;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  .product:nth-child(4) {
-    padding-bottom: 2rem;
   }
 }
 

@@ -1,13 +1,12 @@
 .content {
   margin: auto;
-  width: 55%;
+  width: 1177px;
   padding: var(--padding4) 0 var(--padding8) 0;
   display: flex;
 }
 
-.text h2 {
+.text h3 {
   margin-bottom: var(--size2);
-  width: 100%;
   line-height: 2.2rem;
 }
 

@@ -12,8 +12,19 @@
   flex-direction: column;
 }
 
+.forWho h4 {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: black;
+  text-align: center;
+}
+
 .content {
-  width: 60%;
+  width: 1177px;
+  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +36,8 @@
     width: 100%;
   }
   .forWho {
-    padding: var(--padding4) 1.5rem var(--padding2) 1.5rem;
+    padding: var(--padding4) 1rem var(--padding2) 1rem;
+    text-align: center;
   }
   .title {
     padding-bottom: var(--padding2);

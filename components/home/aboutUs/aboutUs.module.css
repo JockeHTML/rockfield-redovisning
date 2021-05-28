@@ -9,10 +9,11 @@
 }
 
 .content {
-  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 1177px;
+  max-width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -21,7 +22,7 @@
     width: 100%;
   }
   .aboutUs {
-    padding: var(--padding2) 1.5rem var(--padding4) 1.5rem;
+    padding: var(--padding2) 1rem var(--padding4) 1rem;
   }
   .title {
     padding-bottom: var(--padding2);

@@ -2,7 +2,7 @@
   display: none;
   color: var(--blue);
   right: 30px;
-  top: 30px;
+  top: 45px;
   padding-left: 1rem;
   font-size: var(--size8);
   cursor: pointer;
@@ -19,7 +19,7 @@
   display: none;
   color: var(--blue);
   right: 30px;
-  top: 30px;
+  top: 45px;
   font-size: var(--size8);
   cursor: pointer;
   z-index: 3;

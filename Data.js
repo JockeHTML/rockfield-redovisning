@@ -30,30 +30,26 @@ export const productsData = [
   {
     link: "/affarsradgivning",
     title: "Affärsrådgivning",
-    icon: "ClipboardListIcon",
-    text:
-      "Är ditt företag i behov av rådgivning när det t.ex. gäller att öka lönsamheten, effektivisera, budgetera...",
+    icon: "./images/chat.png",
+    text: "Är ditt företag i behov av rådgivning när det exempelvis gäller att öka lönsamheten, effektivisera, budgetera...",
   },
   {
     link: "/redovisning",
     title: "Löpande redovisning",
-    icon: "ChartBarIcon",
-    text:
-      "Vi på Rockfield tycker att redovisning ska vara enkelt och att ni som våra kunder ska kunna fokusera på er tjärnverksamhet...",
+    icon: "./images/search.png",
+    text: "Vi på Rockfield tycker att redovisning ska vara enkelt och att ni som våra kunder ska kunna fokusera på er tjärnverksamhet...",
   },
   {
     link: "/loneadministration",
     title: "Löneadministration",
-    icon: "BookOpenIcon",
-    text:
-      "Är lönekörningen ett tungt ok på era axlar för er varje månad? Då hjälper vi er med era behov kring löneadministration...",
+    icon: "./images/bar-chart.png",
+    text: "Är lönekörningen ett tungt ok på era axlar för er varje månad? Då hjälper vi er med era behov kring löneadministration...",
   },
   {
     link: "/betalningsuppdrag",
     title: "Betalningsuppdrag",
-    icon: "ChatIcon",
-    text:
-      "Känner ni att det tar mycket tid att hantera betalning av fakturor till leverantörer och att det händer att ni blir sena...",
+    icon: "./images/pay.png",
+    text: "Känner ni att det tar mycket tid att hantera betalning av fakturor till leverantörer och att det händer att ni blir sena...",
   },
 ];
 
@@ -87,31 +83,27 @@ export const contactData = [
 export const affarsradgivningData = [
   {
     title: "Affärsrådgivnings",
-    text:
-      "Är ditt företag i behov av rådgivning när det t.ex. gäller att öka lönsamheten, effektivisera, budgetera m.m. så har vi på Rockfield möjlighet att hjälpa till med det. Kontakta oss så ser vi över just ditt företags situation och behov och sätter upp en individuellt anpassat plan som passar.",
+    text: "Är ditt företag i behov av rådgivning när det t.ex. gäller att öka lönsamheten, effektivisera, budgetera m.m. så har vi på Rockfield möjlighet att hjälpa till med det. Kontakta oss så ser vi över just ditt företags situation och behov och sätter upp en individuellt anpassat plan som passar.",
   },
 ];
 
 export const loneadministrationData = [
   {
     title: "Löneadministrations",
-    text:
-      "Är lönekörningen ett tungt ok på era axlar för er varje månad? Då hjälper vi er med era behov kring löneadministration, med allt ifrån skapande av lönerna till inrapportering till Skatteverket. Vi hjälper folk i olika branscher med löner redan idag så kontakta oss gärna för att hitta en lösning som passar just er verksamhet. ",
+    text: "Är lönekörningen ett tungt ok på era axlar för er varje månad? Då hjälper vi er med era behov kring löneadministration, med allt ifrån skapande av lönerna till inrapportering till Skatteverket. Vi hjälper folk i olika branscher med löner redan idag så kontakta oss gärna för att hitta en lösning som passar just er verksamhet. ",
   },
 ];
 
 export const momsredovisningData = [
   {
     title: "Betalningsuppdrag",
-    text:
-      "Känner ni att det tar mycket tid att hantera betalning av fakturor till leverantörer och att det händer att ni bli sena med betalningar p.g.a. detta ibland? Då finns vi på Rockfield här och är behjälpliga med att sköta era betaluppdrag, små som stora. Låter det som att detta skulle vara något som skulle passa er så är ni välkomna att kontakta oss för en lösning.",
+    text: "Känner ni att det tar mycket tid att hantera betalning av fakturor till leverantörer och att det händer att ni bli sena med betalningar p.g.a. detta ibland? Då finns vi på Rockfield här och är behjälpliga med att sköta era betaluppdrag, små som stora. Låter det som att detta skulle vara något som skulle passa er så är ni välkomna att kontakta oss för en lösning.",
   },
 ];
 
 export const redovisningData = [
   {
     title: "Löpande redovisning",
-    text:
-      "Vi på Rockfield tycker att redovisning ska vara enkelt och att ni som våra kunder ska kunna fokusera på er tjärnverksamhet och göra det ni är bra på och hjälper därför gärna till med den löpande redovisningen oavsett storlek på företag och anpassar oss efter just ditt företags önskemål. Oavsett om ni har månads-, kvartals- eller årsmoms är vi behjälpliga. Kanske önskar ni ha hjälp med all, eller bara en del av den löpande redovisningen? Oavsett hittar vi tillsammans en lösning som passar er.",
+    text: "Vi på Rockfield tycker att redovisning ska vara enkelt och att ni som våra kunder ska kunna fokusera på er tjärnverksamhet och göra det ni är bra på och hjälper därför gärna till med den löpande redovisningen oavsett storlek på företag och anpassar oss efter just ditt företags önskemål. Oavsett om ni har månads-, kvartals- eller årsmoms är vi behjälpliga. Kanske önskar ni ha hjälp med all, eller bara en del av den löpande redovisningen? Oavsett hittar vi tillsammans en lösning som passar er.",
   },
 ];

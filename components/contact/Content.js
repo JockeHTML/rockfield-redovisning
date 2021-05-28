@@ -7,10 +7,10 @@ const Content = () => {
   return (
     <div className={classes.content}>
       <div className={classes.text}>
-        <h2>Hör av dig till oss om du har frågor eller funderingar</h2>
+        <h3>Har du frågor eller funderingar?</h3>
         <p>
           Skicka ett meddelande via formuläret här intill alternativt kontakta
-          oss via telefon.
+          oss via telefon eller e-post.
         </p>
         <div className={classes.icons}>
           {contactData.map((contact, index) => {

@@ -1,45 +1,26 @@
 import React, { useEffect } from "react";
 import classes from "./product.module.css";
-import {
-  ChatIcon,
-  ClipboardListIcon,
-  ChartBarIcon,
-  BookOpenIcon,
-} from "@heroicons/react/outline";
 import Link from "next/link";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-const Product = ({ title, text, link }) => {
-  const showIcon = () => {
-    if (title === "Betalningsuppdrag") {
-      return <ClipboardListIcon className={classes.icon} />;
-    }
-    if (title === "Löneadministration") {
-      return <ChartBarIcon className={classes.icon} />;
-    }
-    if (title === "Löpande redovisning") {
-      return <BookOpenIcon className={classes.icon} />;
-    }
-    if (title === "Affärsrådgivning") {
-      return <ChatIcon className={classes.icon} />;
-    }
-  };
-
+const Product = ({ title, text, link, icon }) => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
 
   return (
-    <div data-aos="fade-in" className={classes.product}>
-      {showIcon()}
-      <h2>{title}</h2>
+    <div data-aos="fade-up" className={classes.product}>
+      <img src={icon} alt="" />
+      <h3>{title}</h3>
       <p>{text}</p>
-      <Link href={link}>
-        <a href="#" alt={link}>
-          Läs mer
-        </a>
-      </Link>
+      <span>
+        <Link href={link}>
+          <a href="#" alt={link}>
+            Läs mer
+          </a>
+        </Link>
+      </span>
     </div>
   );
 };
