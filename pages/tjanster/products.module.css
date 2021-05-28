@@ -6,12 +6,16 @@
 }
 
 .border {
-  background-color: var(--blue);
-  height: 200px;
+  background-image: url("../../public/images/contact.jpg");
+  height: auto;
+  padding: 7rem 0;
   width: 100%;
   justify-content: center;
   align-items: center;
   display: flex;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .border h1 {

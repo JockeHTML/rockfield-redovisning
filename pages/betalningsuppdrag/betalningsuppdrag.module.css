@@ -15,6 +15,21 @@
   display: flex;
 }
 
+.title h4 {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: black;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  padding-top: var(--padding8);
+}
+
 .border h1 {
   color: white;
 }

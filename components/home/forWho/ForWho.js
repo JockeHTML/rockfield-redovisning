@@ -13,7 +13,7 @@ const forWho = () => {
   return (
     <div className={classes.forWho}>
       <span className={classes.title}>
-        <h4>REDOVISNING</h4>
+        <h4>ALLT INOM REDOVISNING</h4>
         <h1>Vi Hjälper Dig</h1>
       </span>
       <div data-aos="fade-up" className={classes.content}>

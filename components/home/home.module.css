@@ -44,7 +44,6 @@
     height: auto;
     padding: var(--padding4) 1rem var(--padding4) 1rem;
     flex-direction: column;
-    background-position: left;
   }
   .text {
     width: 100%;

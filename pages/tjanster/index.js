@@ -6,7 +6,7 @@ const ProductsPage = () => {
   return (
     <div className={classes.products}>
       <div className={classes.border}>
-        <h1>Tjänster</h1>
+        <h1>TJÄNSTER</h1>
       </div>
       <Products />
     </div>
