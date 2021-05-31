@@ -1,16 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import classes from "./content.module.css";
 import { contactData } from "../../Data";
-import Aos from "aos";
-import "aos/dist/aos.css";
 import Emailjs from "./Emailjs";
 
 const Content = () => {
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
   return (
-    <div data-aos="fade-up" className={classes.content}>
+    <div className={classes.content}>
       <div className={classes.text}>
         <h2>Har du frågor eller funderingar?</h2>
         <p>

@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./emailjs.module.css";
 import cx from "classnames";
-import Content from "./Content";
 import emailjs from "emailjs-com";
 
 function Emailjs() {
