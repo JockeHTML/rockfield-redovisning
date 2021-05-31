@@ -4,7 +4,7 @@ import ForWho from "../components/home/forWho/ForWho";
 import AboutUs from "../components/home/aboutUs/AboutUs";
 import Slider from "../components/slider/Slider";
 import Products from "../components/home/products/Products";
-import Contact from "../components/contact/Contact";
+import Contact2 from "../components/contact/Contact2";
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
       <AboutUs />
       <Slider />
       <Products />
-      <Contact />
+      <Contact2 />
     </main>
   );
 }

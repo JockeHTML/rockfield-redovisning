@@ -12,13 +12,6 @@ const Content = () => {
   return (
     <div data-aos="fade-up" className={classes.content}>
       <div className={classes.text}>
-        <div className={classes.title}>
-          <h3>Har du frågor eller funderingar?</h3>
-          <p>
-            Skicka ett meddelande via formuläret här intill så återkopplar vi
-            till dig, alternativt kontakta oss via telefon eller e-post.
-          </p>
-        </div>
         <div className={classes.icons}>
           {contactData.map((contact, index) => {
             const { text, icon, src } = contact;
@@ -41,7 +34,6 @@ const Content = () => {
           <p>Ponnyvägen 6, 857 50 Sundsvall</p>
         </div>
       </div>
-      <Emailjs />
     </div>
   );
 };

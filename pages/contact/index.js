@@ -1,5 +1,5 @@
 import React from "react";
-import Contact from "../../components/contact/Contact";
+import Contact2 from "../../components/contact/Contact2";
 import classes from "./border.module.css";
 
 const ContactPage = () => {
@@ -8,7 +8,7 @@ const ContactPage = () => {
       <div className={classes.border}>
         <h1>KONTAKT</h1>
       </div>
-      <Contact />
+      <Contact2 />
     </div>
   );
 };
