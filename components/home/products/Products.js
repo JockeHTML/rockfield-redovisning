@@ -15,7 +15,7 @@ const Products = () => {
         router.pathname === "/tjanster" ? classes.white : classes.products
       }
     >
-      <h4>Vi hjälper dig hela vägen</h4>
+      <h4>Det Du Behöver Hjälp Med</h4>
       <h1>Våra Tjänster</h1>
       <div className={classes.content}>
         {productsData.map((product, index) => {

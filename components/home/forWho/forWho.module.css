@@ -5,7 +5,7 @@
 .forWho {
   height: auto;
   background-color: var(--white);
-  padding: var(--padding8) 0 var(--padding8) 0;
+  padding: var(--padding8) 1rem var(--padding8) 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,10 +36,10 @@
     width: 100%;
   }
   .forWho {
-    padding: var(--padding4) 1rem var(--padding2) 1rem;
+    padding: var(--padding4) 1rem 0 1rem;
     text-align: center;
   }
   .title {
-    padding-bottom: var(--padding2);
+    padding-bottom: var(--padding4);
   }
 }

@@ -82,6 +82,9 @@
   }
 }
 
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
   .extra {
     display: none;
@@ -98,11 +101,11 @@
   .extra {
     display: none;
   }
-  .rest li:nth-child(1) {
-    display: flex;
+  .header ul {
+    display: none;
   }
-  .header li {
-    margin-right: 2rem;
+  .header {
+    flex-direction: flex-start;
   }
 }
 
