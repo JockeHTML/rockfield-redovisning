@@ -1,32 +1,60 @@
 import React from "react";
-import classes from "./emailjs.module.css";
+import styles from "./emailjs.module.css";
+import cx from "classnames";
+import Content from "./Content";
+import emailjs from "emailjs-com";
 
 function Emailjs() {
-  return (
-    <div className={classes.formWrapper}>
-      <div className={classes.title}>
-        <h3>Kontaka oss via formuläret</h3>
-      </div>
-      <form className={classes.form}>
-        <input id="contact_number" type="hidden" name="contact_number" />
-        <label htmlFor="contact_number">
-          <p>Namn</p>
-        </label>
-        <input id="user_name" type="text" name="user_name" />
-        <label htmlFor="user_name">
-          <p>E-post</p>
-        </label>
-        <input id="user_phone" type="text" name="user_phone" />
-        <label htmlFor="user_phone">
-          <p>Telefon</p>
-        </label>
-        <input id="user_email" type="email" name="user_email" />
-        <label htmlFor="user_email">
-          <p>Meddelande</p>
-        </label>
-        <textarea name="message" />
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-        <input className={classes.btn} type="submit" value="Skicka" />
+    emailjs
+      .sendForm(
+        "service_206hzpv",
+        "template_byl1c47",
+        e.target,
+        "user_WCegDg1lg7n89Cavfa2QJ"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+  return (
+    <div className={styles.content}>
+      <form autoComplete="off" onSubmit={sendEmail} className={styles.form}>
+        <div className={cx(styles.input, styles.name)}>
+          <input
+            autoComplete="off"
+            placeholder="Vad är ditt namn?"
+            type="text"
+            name="name"
+          />
+        </div>
+        <div className={cx(styles.input, styles.email)}>
+          <input
+            autoComplete="off"
+            placeholder="Vad är din e-post?"
+            type="text"
+            name="email"
+          />
+        </div>
+        <div className={cx(styles.input, styles.message)}>
+          <textarea
+            autoComplete="off"
+            placeholder="Skriv ditt meddelande"
+            type="text"
+            name="message"
+          />
+        </div>
+        <button type="submit" className={styles.formButton}>
+          Skicka
+        </button>
       </form>
     </div>
   );

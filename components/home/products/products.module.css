@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   padding: var(--padding8) 1rem;
+  max-width: 100%;
 }
 
 .products h4,
@@ -25,6 +26,7 @@
   justify-content: center;
   align-items: center;
   padding: var(--padding8) 0;
+  max-width: 100%;
 }
 
 .content {

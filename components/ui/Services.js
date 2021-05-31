@@ -2,9 +2,9 @@ import React, { useEffect } from "react";
 import classes from "./services.module.css";
 import Button from "../ui/Button";
 import BorderButton from "../ui/BorderButton";
-import Emailjs from "../contact/Emailjs";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Emailjs from "../contact/Emailjs";
 
 const Services = ({ title, text }) => {
   useEffect(() => {

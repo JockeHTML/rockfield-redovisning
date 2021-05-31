@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import classes from "./content.module.css";
 import { contactData } from "../../Data";
-import Emailjs from "./Emailjs";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Emailjs from "./Emailjs";
 
 const Content = () => {
   useEffect(() => {
@@ -12,6 +12,12 @@ const Content = () => {
   return (
     <div data-aos="fade-up" className={classes.content}>
       <div className={classes.text}>
+        <h2>Har du frågor eller funderingar?</h2>
+        <p>
+          Skicka ett meddelande via formuläret här intill så återkopplar vi till
+          dig, alternativt kontakta oss via telefon eller e-post.
+        </p>
+
         <div className={classes.icons}>
           {contactData.map((contact, index) => {
             const { text, icon, src } = contact;
@@ -34,6 +40,7 @@ const Content = () => {
           <p>Ponnyvägen 6, 857 50 Sundsvall</p>
         </div>
       </div>
+      <Emailjs />
     </div>
   );
 };

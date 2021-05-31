@@ -1,11 +1,20 @@
 .content {
   margin: auto;
-  padding: 1rem 0 0 0;
   display: flex;
   max-width: 100%;
+  width: 1177px;
+  padding-bottom: var(--padding8);
 }
 
-.text h3 {
+.text h2 {
+  margin-bottom: 2rem;
+}
+
+.text {
+  margin-right: 4rem;
+}
+
+.content h3 {
   margin-bottom: var(--size2);
   line-height: 2.2rem;
 }
@@ -33,6 +42,10 @@
   color: var(--blue);
 }
 
+.icons {
+  margin-top: 2rem;
+}
+
 .icons span,
 .address span {
   display: flex;
@@ -45,17 +58,56 @@
   .content {
     width: 100%;
     flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: var(--padding8);
+  }
+  .text {
+    width: 100%;
+    margin: 0 0 var(--padding6) 0;
   }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .text p {
+    width: 80%;
+  }
+  .text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .form {
+    margin-top: 4rem;
+  }
+  .text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .text {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .text {
+    margin-right: 2rem;
+  }
+  .content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
