@@ -16,7 +16,6 @@ export default function Home() {
           name="description"
           content="Rockfield Redovisning, Ponnyvägen 6, 857 50 Sundsvall"
         />
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </Head>
       <HomePage />
       <ForWho />
