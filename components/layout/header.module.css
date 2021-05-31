@@ -61,14 +61,9 @@
 
 .header a {
   margin-right: 5px;
-  color: var(--blue);
+  color: var(--black);
   font-weight: 600;
   font-size: var(--size5);
-}
-
-.header a:hover,
-.header a:active {
-  color: var(--blue);
 }
 
 .activeDropdown a {

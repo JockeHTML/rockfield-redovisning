@@ -1,6 +1,6 @@
 import React from "react";
 import Services from "../../components/ui/Services";
-import classes from "../betalningsuppdrag/betalningsuppdrag.module.css";
+import classes from "./redovisning.module.css";
 import { redovisningData } from "../../Data";
 
 const index = () => {

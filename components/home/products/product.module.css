@@ -3,9 +3,10 @@
 }
 
 .product {
-  width: 400px;
-  padding: 0 2rem 4rem 2rem;
+  width: 350px;
+  padding: 0 0rem 4rem 0;
   max-width: 100%;
+  margin: 0 5rem;
 }
 
 .product p {
@@ -16,6 +17,7 @@
 .product a {
   cursor: pointer;
   font-weight: 700;
+  color: var(--lightblue);
 }
 
 .product span {
@@ -37,6 +39,7 @@
   .product {
     width: 100%;
     padding: var(--padding4) 0 0 0;
+    margin: 0;
   }
   .product p {
     width: 100%;
@@ -53,6 +56,7 @@
     padding-right: 1rem;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0;
   }
 }
 
@@ -61,6 +65,7 @@
     width: 50%;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 0;
   }
 }
 
@@ -68,6 +73,7 @@
   .product {
     width: 50%;
     flex-wrap: wrap;
+    margin: 0;
   }
 }
 

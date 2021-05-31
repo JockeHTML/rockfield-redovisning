@@ -1,6 +1,6 @@
 import React from "react";
 import About from "../../components/about/About";
-import classes from "../contact/border.module.css";
+import classes from "./border.module.css";
 
 const AboutPage = () => {
   return (

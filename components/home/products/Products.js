@@ -32,7 +32,7 @@ const Products = () => {
         })}
       </div>
       <div className={classes.buttons}>
-        <Button>Läs mer</Button>
+        <Button>Om oss</Button>
         <BorderButton>Kontakt</BorderButton>
       </div>
     </div>

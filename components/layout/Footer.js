@@ -56,6 +56,7 @@ const Footer = () => {
         <ul>
           <li>
             <a
+              target="_blank"
               alt="facebook"
               href="https://www.facebook.com/rockfieldredovisning"
             >

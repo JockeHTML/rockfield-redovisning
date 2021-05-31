@@ -1,6 +1,6 @@
 import React from "react";
 import Gdpr from "../../components/gdpr/Gdpr";
-import classes from "../contact/border.module.css";
+import classes from "./border.module.css";
 
 const GdprPage = () => {
   return (
