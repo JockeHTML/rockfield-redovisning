@@ -29,7 +29,11 @@ const Content = () => {
         <br />
 
         <p>
-          <a style={{ color: "var(--lightblue)" }} href="#">
+          <a
+            style={{ color: "var(--lightblue)" }}
+            target="_blank"
+            href="https://1drv.ms/w/s!Ag3FH929knOPcRTFCWPGCW_ukc0?e=rA6cr6"
+          >
             Klicka här
           </a>{" "}
           för att läsa om hur vi hanterar personuppgifter.
