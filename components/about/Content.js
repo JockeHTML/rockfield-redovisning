@@ -10,11 +10,11 @@ const Content = () => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div data-aos="fade-up" className={classes.content}>
+    <div className={classes.content}>
       <div className={classes.img}>
         <img src="./images/staff.jpg" alt="Peter och Niklas" />
       </div>
-      <div className={classes.text}>
+      <div data-aos="fade-up" className={classes.text}>
         <h2>Vår historia</h2>
         <p>
           Rockfield Redovisning är en redovisningsbyrå som startade upp i början

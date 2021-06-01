@@ -10,11 +10,11 @@ const Content = () => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div data-aos="fade-up" className={classes.content}>
+    <div className={classes.content}>
       <div className={classes.img}>
         <img src="./images/gdpr.jpg" alt="GDPR bild" />
       </div>
-      <div className={classes.text}>
+      <div data-aos="fade-up" className={classes.text}>
         <h2>Behandling av personuppgifter</h2>
         <p>
           För oss är skyddet av personlig integritet viktigt. När vår byrå

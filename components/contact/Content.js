@@ -10,8 +10,8 @@ const Content = () => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div data-aos="fade-up" className={classes.content}>
-      <div className={classes.text}>
+    <div className={classes.content}>
+      <div data-aos="fade-up" className={classes.text}>
         <h2>Har du frågor eller funderingar?</h2>
         <p>
           Skicka ett meddelande via formuläret här intill så återkopplar vi till

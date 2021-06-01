@@ -11,8 +11,8 @@ const Services = ({ title, text }) => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div data-aos="fade-up" className={classes.services}>
-      <div className={classes.text}>
+    <div className={classes.services}>
+      <div data-aos="fade-up" className={classes.text}>
         <h2>{title}</h2>
         <p>{text}</p>
 
