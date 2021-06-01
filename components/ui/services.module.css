@@ -31,6 +31,7 @@
 
 .text {
   margin-right: 4rem;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -42,8 +43,8 @@
     padding-bottom: 0;
   }
   .text {
-    padding: 0 0 1rem 0;
     text-align: center;
+    margin: 0;
   }
   .buttons {
     justify-content: center;

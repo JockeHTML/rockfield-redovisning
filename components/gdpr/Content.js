@@ -1,20 +1,15 @@
-import React, { useEffect } from "react";
+import React from "react";
 import classes from "./content.module.css";
 import Button from "../ui/Button";
 import BorderButton from "../ui/BorderButton";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 const Content = () => {
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
   return (
     <div className={classes.content}>
       <div className={classes.img}>
         <img src="./images/gdpr.jpg" alt="GDPR bild" />
       </div>
-      <div data-aos="fade-up" className={classes.text}>
+      <div className={classes.text}>
         <h2>Behandling av personuppgifter</h2>
         <p>
           För oss är skyddet av personlig integritet viktigt. När vår byrå

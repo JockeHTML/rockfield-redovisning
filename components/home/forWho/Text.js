@@ -1,16 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import classes from "./text.module.css";
 import Button from "../../ui/Button";
 import BorderButton from "../../ui/BorderButton";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 const Text = () => {
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
   return (
-    <div data-aos="fade-up" className={classes.text}>
+    <div className={classes.text}>
       <h2>Våra kunder</h2>
       <p>
         Vi ser framemot att få jobba med er oavsett bolagsform eller storlek. Se

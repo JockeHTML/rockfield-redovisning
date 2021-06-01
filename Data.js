@@ -89,7 +89,7 @@ export const affarsradgivningData = [
 
 export const loneadministrationData = [
   {
-    title: "Löneadministrations",
+    title: "Löneadministration",
     text: "Är lönekörningen ett tungt ok på era axlar för er varje månad? Då hjälper vi er med era behov kring löneadministration, med allt ifrån skapande av lönerna till inrapportering till Skatteverket. Vi hjälper folk i olika branscher med löner redan idag så kontakta oss gärna för att hitta en lösning som passar just er verksamhet. ",
   },
 ];
