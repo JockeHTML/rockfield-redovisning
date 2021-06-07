@@ -13,7 +13,7 @@ const AboutUs = () => {
   return (
     <div className={classes.aboutUs}>
       <div
-        data-aos="fade-up"
+        data-aos="fade-in"
         data-aos-duration="800"
         className={classes.content}
       >
