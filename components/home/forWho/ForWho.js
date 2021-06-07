@@ -2,12 +2,12 @@ import React, { useEffect } from "react";
 import classes from "./forWho.module.css";
 import Image from "./Image";
 import Text from "./Text";
-import Aos from "aos";
+import AOS from "aos";
 import "aos/dist/aos.css";
 
 const forWho = () => {
   useEffect(() => {
-    Aos.init();
+    AOS.init();
     window.addEventListener("load", AOS.refresh);
   }, []);
   return (

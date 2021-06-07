@@ -11,6 +11,7 @@ export default function Home() {
     <main>
       <Head>
         <title>Rockfield Redovisning AB</title>
+        <script src="assets/js/aos.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
