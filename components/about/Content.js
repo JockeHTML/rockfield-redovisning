@@ -1,15 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ProductButton from "../ui/ProductButton";
 import BorderButton from "../ui/BorderButton";
 import classes from "./content.module.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Content = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className={classes.content}>
       <div className={classes.img}>
         <img src="./images/staff.jpg" alt="Peter och Niklas" />
       </div>
-      <div className={classes.text}>
+      <div data-aos="fade-up" data-aos-duration="800" className={classes.text}>
         <h2>Vår historia</h2>
         <p>
           Rockfield Redovisning är en redovisningsbyrå som startade upp i början

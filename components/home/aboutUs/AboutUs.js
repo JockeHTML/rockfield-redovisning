@@ -14,7 +14,7 @@ const AboutUs = () => {
     <div className={classes.aboutUs}>
       <div
         data-aos="fade-up"
-        data-aos-duration="600"
+        data-aos-duration="800"
         className={classes.content}
       >
         <Image />
