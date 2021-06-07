@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 const forWho = () => {
   useEffect(() => {
     Aos.init();
+    window.addEventListener("load", AOS.refresh);
   }, []);
   return (
     <div className={classes.forWho}>
