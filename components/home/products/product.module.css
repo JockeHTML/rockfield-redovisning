@@ -17,11 +17,22 @@
 .product a {
   cursor: pointer;
   font-weight: 700;
-  color: var(--lightblue);
+  font-size: 14px;
+  color: var(--blue);
+}
+
+.product i {
+  color: var(--blue);
+  margin-left: 5px;
+  font-size: 14px;
+  margin-top: 5px;
 }
 
 .product span {
   margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .product h3 {
