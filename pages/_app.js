@@ -7,8 +7,6 @@ function MyApp({ Component, pageProps }) {
     <Layout>
       <Head>
         <title>Rockfield Redovisning</title>
-        <script src="assets/js/aos.js"></script>
-
         <link
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
