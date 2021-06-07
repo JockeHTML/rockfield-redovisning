@@ -8,7 +8,7 @@ function Contact2(props) {
     <div className={styles.formWrapper}>
       <div className={styles.border}>
         <h4>ROCKFIELD REDOVISNING</h4>
-        <h1>Kontakta Oss Idag</h1>
+        <h1>Kontakta oss idag</h1>
       </div>
       <Content />
       <Map />

@@ -7,12 +7,16 @@ import "aos/dist/aos.css";
 
 const AboutUs = () => {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init();
   }, []);
 
   return (
     <div className={classes.aboutUs}>
-      <div className={classes.content}>
+      <div
+        data-aos="fade-up"
+        data-aos-duration="600"
+        className={classes.content}
+      >
         <Image />
         <Text />
       </div>

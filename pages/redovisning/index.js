@@ -11,7 +11,7 @@ const index = () => {
       </div>
       <div className={classes.title}>
         <h4>ROCKFIELD REDOVISNING</h4>
-        <h1>Vi Hjälper Dig Med</h1>
+        <h1>Vi hjälper dig med</h1>
       </div>
       {redovisningData.map((data, index) => {
         return <Services key={index} {...data} />;

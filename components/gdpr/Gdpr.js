@@ -7,7 +7,7 @@ const Gdpr = () => {
     <div className={classes.gdpr}>
       <div className={classes.title}>
         <h4>ROCKFIELD REDOVISNING</h4>
-        <h1>Din Säkerhet</h1>
+        <h1>Din säkerhet</h1>
       </div>
       <Content />
     </div>
