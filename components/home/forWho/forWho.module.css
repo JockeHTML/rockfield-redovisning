@@ -18,7 +18,7 @@
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 6px;
-  color: black;
+  color: var(--blue);
   text-align: center;
 }
 
