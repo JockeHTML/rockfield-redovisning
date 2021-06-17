@@ -7,12 +7,13 @@ const Content = () => {
   return (
     <div className={classes.content}>
       <div className={classes.text}>
-        <h2>Har du frågor eller funderingar?</h2>
-        <p>
-          Skicka ett meddelande via formuläret här intill så återkopplar vi till
-          dig, alternativt kontakta oss via telefon eller e-post.
-        </p>
-
+        <div className={classes.title}>
+          <h2>Har du frågor eller funderingar?</h2>
+          <p>
+            Skicka ett meddelande via formuläret här intill så återkopplar vi
+            till dig, alternativt kontakta oss via telefon eller e-post.
+          </p>
+        </div>
         <div className={classes.icons}>
           {contactData.map((contact, index) => {
             const { text, icon, src } = contact;

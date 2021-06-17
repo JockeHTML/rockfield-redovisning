@@ -1,7 +1,6 @@
 import React from "react";
 import classes from "./text.module.css";
 import Button from "../../ui/Button";
-import BorderButton from "../../ui/BorderButton";
 
 const Text = () => {
   return (
@@ -14,7 +13,6 @@ const Text = () => {
       </p>
       <div className={classes.buttons}>
         <Button>Läs mer</Button>
-        <BorderButton>Kontakt</BorderButton>
       </div>
     </div>
   );

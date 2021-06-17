@@ -2,8 +2,7 @@ import React from "react";
 import classes from "./products.module.css";
 import Product from "./Product";
 import { productsData } from "../../../Data";
-import Button from "../../ui/Button";
-import BorderButton from "../../ui/BorderButton";
+
 import { useRouter } from "next/router";
 
 const Products = () => {
@@ -15,8 +14,8 @@ const Products = () => {
         router.pathname === "/tjanster" ? classes.white : classes.products
       }
     >
-      <h4>ALLT INOM REDOVISNING</h4>
-      <h1>Vi hjälper dig</h1>
+      <h4>ROCKFIELD REDOVISNING</h4>
+      <h1>Allt inom redovisning</h1>
       <div className={classes.content}>
         {productsData.map((product, index) => {
           const { title, text, link, icon } = product;
@@ -30,10 +29,6 @@ const Products = () => {
             />
           );
         })}
-      </div>
-      <div className={classes.buttons}>
-        <Button>Om oss</Button>
-        <BorderButton>Kontakt</BorderButton>
       </div>
     </div>
   );

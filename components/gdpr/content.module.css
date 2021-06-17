@@ -36,6 +36,7 @@
   .content {
     flex-direction: column;
     text-align: center;
+    padding: var(--padding3) 0 0 0;
   }
   .text h2 {
     padding-top: 1.5rem;

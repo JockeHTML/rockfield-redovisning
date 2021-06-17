@@ -40,6 +40,6 @@
     text-align: center;
   }
   .title {
-    padding-bottom: var(--padding4);
+    padding-bottom: var(--padding3);
   }
 }

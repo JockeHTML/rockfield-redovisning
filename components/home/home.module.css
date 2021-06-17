@@ -67,9 +67,9 @@
 @media (max-width: 768px) {
   .homePage {
     height: auto;
-    padding: 3rem 1rem var(--padding4) 1rem;
+    padding: 1.5rem 1rem var(--padding4) 1rem;
     flex-direction: column;
-    background-color: #f3faff;
+    background-color: var(--bg);
   }
   .text {
     width: 100%;

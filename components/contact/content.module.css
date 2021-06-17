@@ -60,7 +60,8 @@
     flex-direction: column;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-bottom: var(--padding8);
+    padding-bottom: var(--padding4);
+    text-align: center;
   }
   .text {
     width: 100%;
@@ -69,16 +70,20 @@
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
-  .text p {
-    width: 80%;
-  }
   .text {
+    text-align: start;
     margin-left: auto;
     margin-right: auto;
+  }
+  .title {
+    text-align: center;
+    width: 80%;
+    margin: auto;
   }
   .content {
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-bottom: var(--padding4);
   }
 }
 
@@ -90,9 +95,16 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .title {
+    text-align: start;
+    width: 80%;
+    margin-left: 0;
+    margin-right: 0;
+  }
   .content {
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-bottom: var(--padding8);
   }
 }
 
