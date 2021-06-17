@@ -3,5 +3,6 @@
 }
 
 .map {
-  width: 100%;
+  width: 90%;
+  padding-bottom: var(--padding4);
 }

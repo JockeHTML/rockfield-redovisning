@@ -20,7 +20,7 @@ const Content = () => {
             return (
               <div className={classes.iconsContent} key={index}>
                 <span>
-                  <a href={src}>
+                  <a aria-label="e-post, telefon, address" href={src}>
                     <i className={icon}></i>
                   </a>
                 </span>
