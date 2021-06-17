@@ -17,6 +17,10 @@
   color: white;
 }
 
+.border {
+  margin-bottom: var(--padding8);
+}
+
 @media (max-width: 768px) {
   .border {
     margin-bottom: var(--padding4);
