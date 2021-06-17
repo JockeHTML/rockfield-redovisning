@@ -58,6 +58,7 @@ h1 {
   font-size: var(--size16);
   color: var(--blue);
   line-height: 1;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {
@@ -70,6 +71,7 @@ h3 {
   margin: 0;
   padding: 0;
   color: var(--blue);
+  font-weight: 500;
 
   font-size: var(--size6);
   line-height: 1.75rem;
@@ -77,6 +79,7 @@ h3 {
 
 h4 {
   color: var(--blue);
+  font-weight: 500;
 
   margin: 0;
   padding: 0;
@@ -86,6 +89,7 @@ h4 {
 
 h2 {
   color: var(--blue);
+  font-weight: 500;
 
   margin: 0;
   padding: 0;
