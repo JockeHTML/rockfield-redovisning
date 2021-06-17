@@ -6,6 +6,8 @@
   color: var(--blue);
   border: 1px solid var(--lightgrey);
   background-color: var(--white);
+  font-weight: 500;
+
   width: 140px;
   display: flex;
   justify-content: center;

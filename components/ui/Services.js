@@ -12,7 +12,6 @@ const Services = ({ title, text }) => {
         <p>{text}</p>
 
         <div className={classes.buttons}>
-          <Button>Om oss</Button>
           <BorderButton>Kontakt</BorderButton>
         </div>
       </div>

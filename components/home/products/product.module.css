@@ -18,11 +18,11 @@
   cursor: pointer;
   font-weight: 700;
   font-size: 14px;
-  color: var(--blue);
+  color: var(--color);
 }
 
 .product i {
-  color: var(--blue);
+  color: var(--color);
   margin-left: 5px;
   font-size: 14px;
   margin-top: 5px;

@@ -30,25 +30,25 @@ export const productsData = [
   {
     link: "/affarsradgivning",
     title: "Affärsrådgivning",
-    icon: "./images/chat.png",
+    icon: "./images/chat.svg",
     text: "Är ditt företag i behov av rådgivning när det exempelvis gäller att öka lönsamheten, effektivisera, budgetera...",
   },
   {
     link: "/redovisning",
     title: "Löpande redovisning",
-    icon: "./images/search.png",
+    icon: "./images/search.svg",
     text: "Vi på Rockfield tycker att redovisning ska vara enkelt och att ni som våra kunder ska kunna fokusera på er tjärnverksamhet...",
   },
   {
     link: "/loneadministration",
     title: "Löneadministration",
-    icon: "./images/bar-chart.png",
+    icon: "./images/bar-chart.svg",
     text: "Är lönekörningen ett tungt ok på era axlar för er varje månad? Då hjälper vi er med era behov kring löneadministration...",
   },
   {
     link: "/betalningsuppdrag",
     title: "Betalningsuppdrag",
-    icon: "./images/pay.png",
+    icon: "./images/pay.svg",
     text: "Känner ni att det tar mycket tid att hantera betalning av fakturor till leverantörer och att det händer att ni blir sena...",
   },
 ];

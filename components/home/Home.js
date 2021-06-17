@@ -6,9 +6,9 @@ import BorderButton from "../ui/BorderButton";
 const HomePage = () => {
   return (
     <div className={classes.homePage}>
+      <div className={classes.left}></div>
       <div className={classes.text}>
-        <h4>Rockfield Redovisning</h4>
-        <h1>Vi är specialister på redovisning</h1>
+        <h1>Vi är specialister på allt inom redovisning</h1>
         <p>
           Vi på Rockfield Redovisning har många års erfarenhet inom
           redovisningsbranschen och ser fram emot att få hjälpa dig och ditt
@@ -21,6 +21,7 @@ const HomePage = () => {
           <BorderButton>Kontakt</BorderButton>
         </div>
       </div>
+      <div className={classes.right}></div>
     </div>
   );
 };

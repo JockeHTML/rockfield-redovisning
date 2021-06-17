@@ -41,11 +41,11 @@ a {
   --size20: 5rem;
   --size30: 7rem;
   --size40: 10rem;
-
+  --color: #dba11c;
   --grey: #343a40;
   --primary: #000814;
   --lightgrey: #e5e7eb;
-  --blue: #023047;
+  --blue: #0f2137;
   --bg: #f6f6f8;
   --lightblue: #98c1d9;
   --white: #fff;
@@ -55,7 +55,7 @@ h1 {
   margin: 0;
   padding: 0;
   font-size: var(--size16);
-  color: black;
+  color: var(--blue);
   line-height: 1;
 }
 
@@ -68,11 +68,15 @@ h1 {
 h3 {
   margin: 0;
   padding: 0;
+  color: var(--blue);
+
   font-size: var(--size6);
   line-height: 1.75rem;
 }
 
 h4 {
+  color: var(--blue);
+
   margin: 0;
   padding: 0;
   font-size: var(--size5);
@@ -80,6 +84,8 @@ h4 {
 }
 
 h2 {
+  color: var(--blue);
+
   margin: 0;
   padding: 0;
   font-size: 2.2rem;
@@ -96,7 +102,7 @@ h2 {
 p {
   margin: 0;
   padding: 0;
-  font-size: var(--size5);
-  color: var(--primary);
+  font-size: var(--size4);
+  color: #343d48;
   line-height: 1.75rem;
 }

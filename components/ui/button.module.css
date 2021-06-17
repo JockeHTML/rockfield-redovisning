@@ -4,7 +4,8 @@
 
 .btn {
   color: var(--white);
-  background-color: var(--blue);
+  background-color: var(--color);
+  font-weight: 500;
   width: 140px;
   display: flex;
   justify-content: center;
