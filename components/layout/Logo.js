@@ -7,7 +7,7 @@ const Logo = () => {
     <div className={classes.logo}>
       <Link href="/">
         <a>
-          <img src="./images/logo/newWhite.png" alt="Rockfield Redovisning" />
+          <img src="./images/logo/Original.png" alt="Rockfield Redovisning" />
         </a>
       </Link>
     </div>

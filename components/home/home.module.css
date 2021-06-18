@@ -23,7 +23,7 @@
 
 .images img:nth-child(2) {
   position: absolute;
-  right: 0px;
+  right: 30px;
   top: 60px;
   z-index: 0;
 }
@@ -102,38 +102,7 @@
   }
 }
 
-@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: portrait) {
-  .homePage {
-    height: auto;
-    padding: 1.5rem 1rem var(--padding4) 1rem;
-    flex-direction: column;
-    background-color: var(--bg);
-  }
-  .text {
-    width: 100%;
-    padding: 0;
-    text-align: center;
-  }
-  .text p {
-    width: 100%;
-  }
-  .text h1 {
-    width: 100%;
-    font-size: var(--size10);
-    margin: 2rem 0;
-  }
-  .buttons {
-    justify-content: center;
-  }
-  .images img:nth-child(2) {
-    display: none;
-  }
-  .images img:nth-child(1) {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 800px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
   .text h1 {
     width: 70%;
     font-size: 42px;
@@ -149,7 +118,7 @@
     width: 50%;
   }
   .images {
-    margin-right: 2rem;
+    margin-left: 2rem;
   }
   .images img:nth-child(1) {
     margin: 0;
@@ -157,7 +126,7 @@
     height: 450px;
   }
   .images img:nth-child(2) {
-    right: 40px;
+    right: 10px;
     top: 40px;
   }
   .buttons {
