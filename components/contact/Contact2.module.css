@@ -24,6 +24,7 @@
   border-radius: 100px 0 0 0;
   margin: auto;
   width: 100%;
+  max-width: 100%;
 }
 
 @media (max-width: 768px) {
