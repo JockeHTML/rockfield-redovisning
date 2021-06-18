@@ -9,10 +9,10 @@ function Emailjs() {
 
     emailjs
       .sendForm(
-        "service_206hzpv",
-        "template_byl1c47",
+        "service_wlxjq21",
+        "template_1a647px",
         e.target,
-        "user_WCegDg1lg7n89Cavfa2QJ"
+        "user_3ymYjr6uTm8OpOE2suCk3"
       )
       .then(
         (result) => {
