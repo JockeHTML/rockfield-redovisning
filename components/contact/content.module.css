@@ -102,8 +102,8 @@
     margin-right: 0;
   }
   .content {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     padding-bottom: var(--padding8);
   }
 }
@@ -119,7 +119,7 @@
     margin-right: 2rem;
   }
   .content {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
