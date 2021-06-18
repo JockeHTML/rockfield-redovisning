@@ -16,6 +16,7 @@ export default function Home() {
           name="description"
           content="Rockfield Redovisning, Ponnyvägen 6, 857 50 Sundsvall"
         />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <HomePage />
       <ForWho />

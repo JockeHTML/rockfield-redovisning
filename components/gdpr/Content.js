@@ -25,7 +25,7 @@ const Content = () => {
 
         <p>
           <a
-            style={{ color: "var(--lightblue)" }}
+            style={{ color: "var(--color)" }}
             target="_blank"
             href="https://1drv.ms/w/s!Ag3FH929knOPcRTFCWPGCW_ukc0?e=rA6cr6"
           >

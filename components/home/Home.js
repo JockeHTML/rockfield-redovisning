@@ -20,13 +20,12 @@ const HomePage = () => {
           <BorderButton>Kontakt</BorderButton>
         </div>
       </div>
-      <img src="./images/workplace.jpg" alt="" />
+      <div className={classes.images}>
+        <img src="./images/workplace.jpg" alt="office picture" />
+        <img src="./images/dot.svg" alt="dot pattern" />
+      </div>
     </div>
   );
 };
 
 export default HomePage;
-
-/*  <div className={classes.image}>
-          <img src="./images/taxes.jpg" alt="Redovisningstjänster" />
-        </div>*/
