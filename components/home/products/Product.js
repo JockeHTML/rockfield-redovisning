@@ -12,7 +12,7 @@ const Product = ({ title, text, link, icon }) => {
         <Link href={link}>
           <a alt={title}>Till {title}</a>
         </Link>
-        <i class="fas fa-angle-right"></i>
+        <i className="fas fa-angle-right"></i>
       </span>
     </div>
   );
