@@ -14,8 +14,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
-          content="Rockfield Redovisning, Ponnyvägen 6, 857 50 Sundsvall"
+          content="Rockfield Redovisning, Allt inom redovisning"
+          title="Rockfield Redovisning, Ponnyvägen 6, 857 50 Sundsvall"
         />
+        <meta property="og:title" content="Rockfield Redovisning" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <HomePage />
