@@ -67,6 +67,9 @@
     width: 100%;
     margin: 0 0 var(--padding6) 0;
   }
+  .text h2 {
+    display: none;
+  }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {

@@ -8,7 +8,7 @@ const Content = () => {
     <div className={classes.content}>
       <div className={classes.text}>
         <div className={classes.title}>
-          <h2>Har du frågor eller funderingar?</h2>
+          <h2>Har du funderingar?</h2>
           <p>
             Skicka ett meddelande via formuläret här intill så återkopplar vi
             till dig, alternativt kontakta oss via telefon eller e-post.
