@@ -38,11 +38,12 @@ a {
   --size20: 5rem;
   --size30: 7rem;
   --size40: 10rem;
-  --color: #3183ff;
+  --color: #3e76cb;
+  --color2: #2355a1;
   --grey: #343a40;
   --primary: #000814;
   --lightgrey: #e5e7eb;
-  --blue: #0f2137;
+  --blue: #0d2f62;
   --bg: #f6f6f8;
   --lightblue: #98c1d9;
   --white: #fff;
@@ -105,6 +106,6 @@ p {
   margin: 0;
   padding: 0;
   font-size: var(--size4);
-  color: #343d48;
+  color: #65686b;
   line-height: 1.75rem;
 }
