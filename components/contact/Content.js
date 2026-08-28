@@ -33,7 +33,7 @@ const Content = () => {
           <span>
             <i className="fas fa-map-marker-alt"></i>
           </span>
-          <p>Ponnyvägen 6, 857 50 Sundsvall</p>
+          <p>Thulegatan 11, 852 32 Sundsvall</p>
         </div>
       </div>
       <Emailjs />
