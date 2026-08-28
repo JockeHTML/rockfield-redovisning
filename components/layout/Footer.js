@@ -30,9 +30,9 @@ const Footer = () => {
           })}
           <li className={classes.extra}>
             <i className="fas fa-map-marker-alt"></i>
-            <p>Ponnyvägen 6,</p>
+            <p>Thulegatan 11,</p>
           </li>
-          <p>857 50 SUNDSVALL</p>
+          <p>852 32 SUNDSVALL</p>
         </ul>
       </div>
       <div className={classes.links}>
